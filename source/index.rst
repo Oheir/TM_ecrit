@@ -11,7 +11,7 @@ Développement d’un site interactif pour l’apprentissage de l’arithmétiqu
     :caption: Table des matières
 
     introduction.md
-    chapitre-01.md
+    Présentation-du-projet.md
     chapitre-02.md
     todo.rst
 
