@@ -11,7 +11,7 @@ Un autre site est "Khan Academy" qui est un site à but non lucratif qui vise au
 d'autre utilisateurs leur répondre. Cela permet de créer un sens de communauté et de répondre au questions potentielles de manière plus simple car ceux qui répondent aux questions sont aussi des élèves.
 ## Buts du projet
 
-### Buts éducatifs
-Les buts éducatifs 
+### Buts pédagogiques
+Les buts pédagogiques sont centrés autour de rendre la matière facile à comprendre. Dans ce but il faut que la théorie soit vulgarisée le mieux possible et que les exercices soient faciles mais assez modulaires pour permettre de rendre l'experience plus intéressante. L'objectif serait que le site ressemble à "Khan Academy" sans les jeux et les commentaire avec une UI intuitive et de la théorie faciel à comprendre. Il faudrait que l'utilisateur puisse comprendre la théorie sans avoir à chercher des termes autre part ou à regarder sur internet ce que veulent dire les symboles. Les calculs quant à seront séparés en plusieurs difficultés que l'utilisateur pourra choisir selon son envie et ses connaissances. Cela permettra de les rendre plus faciles pour l'utilisateur et de rendre l'apprentissage plus valorisant car on peut voir une amélioration claire ce qui pourrait encourager certaines personnes.
 ### Buts personnels
 
