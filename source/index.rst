@@ -12,7 +12,7 @@ Développement d’un site interactif pour l’apprentissage de l’arithmétiqu
 
     introduction.md
     Présentation-du-projet.md
-    chapitre-02.md
+    Présentation_des_technologies.md
     todo.rst
 
 ..  toctree::
