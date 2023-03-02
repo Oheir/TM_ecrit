@@ -37,7 +37,7 @@ extensions = [
     "myst_parser",
     'sphinx_copybutton',
     'sphinx_design',
-    'sphynxcontrib.bibtex',
+    'sphinxcontrib.bibtex',
 ]
 
 # Configure bibtex
