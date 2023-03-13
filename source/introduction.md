@@ -1,4 +1,4 @@
-# Introduction (version Markdown / MyST)
+# Introduction 
 
 ```{admonition} Information
 Ce chapitre d'introduction doit être complété avec les informations concernant le chapitre d'introduction au TM. 
