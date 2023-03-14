@@ -2,15 +2,26 @@
 
 ## SVG
 
-### Presentation de SVG
-Le format SVG, une abréviation de "Scalable Vector Graphics", est un format de fichier vectoriel qui stocke des images avec des formules mathématiques. Cela permet de les redimensionner sans perdre de la qualité de l'image.
+### Presentation générale de SVG
+Le format SVG, une abréviation de "Scalable Vector Graphics", est un format de fichier vectoriel qui stocke des images avec des formules mathématiques. Les fichier SVG sont écrits en format XML, ainsi ils stockent les données en tant que texte {cite:p}`SVG:adobe`. Les fichiers de format SVG ont comme extension de fichier ".svg". Cette extension peut être lue par la plupart des navigateurs populaires et modernes, et peut être ouverte par certaines applications [^myref]. 
+### Avantages et iconvenients de SVG
+Grâce à la manière dont les images sont stockées dans le format SVG,[^myref1] l'image peut être agrandie et rétrécie sans perte de résolution.
 ```{figure} img/SVG_photo_exemple.png
 :scale: 40 %
 :alt: image de la différence entre svg et les autres formats 
 
 La différence entre les images Raster (pixelisées, JPEG) et les images Vector (vectorielles, SVG) {cite:p}`SVG:Wikipedia`
 ```
-Les fichier SVG sont écrits en format XML, ainsi ils stockent les données en tant que texte {cite:p}`SVG:adobe`. Les fichiers de format SVG ont comme extension de fichier ".svg". Cette extension peut être lue par la plupart des navigateurs populaires et modernes, elle peut aussi être ouverte par des applications [^myref]
+Elle permet aussi de les rendre moins volumineuses. Ainsi, les images pixellisées, qui doivent stocker plusieurs pixels de couleurs différentes pour faire une image, sont beaucoup plus volumineuses. Ces avantages de taille permettent ainsi de rendre le site plus fluide et dynamique. Le format SVG permet supporte aussi, contrairement au format PNG, les animations{cite:p}`SVG:kinsta`. 
+
+SVG a cependant plusieurs inconvénients. 
+Comme, par exemple, le fait que le format ne soit pas supporté sur les appareils et navigateurs plus anciens {cite:p}`SVG:kinsta`. Les formules mathématiques utilisées pour stocker les données sont bien pour les images qui ne demandent pas beaucoup de détails, mais pour des images plus précise le format PNG ou JPEG est généralement plus approprié {cite:p}`SVG:adobe`. 
+
+Cependant cela ne devrait pas posé de problèmes pour l'utilisation qui en est fait pour le projet actuel. En effet les modules utilisants SVG sont assez petits. Le problème de compatibilité avec les systèmes plus anciens n'est pas un problème car le site n'est pas fait pour avoir un but lucratif.
+### Présentation du code SVG
+Le format SVG est écrit en XML, abrévation de "Extensible Markup Language", ce qui lui donne son écriture sous forme de texte, mais qui le rend aussi plus dur à comprendre. C'est pour cette raison qu'il faut commencer par des exemples.
+
+Pour lancer une "fenêtre" svg il faut utiliser l'attribut "viewbox"
 ### Utilisation de SVG dans le projet
 Les avantages du format SVG sont utilisés dans le projet pour faire les éléments interactifs. Par exemple l'horloge qui montre la congruence modulaire est fait grâce à plusieurs cercle pour faire le corps de l'horloge et les point représentant les chiffres. J'utilise aussi la propriété "rotate(angle, cx, cy)" pous faire tourner les points et leurs valeurs autour du centre du cercle, cela permet de rendre l'horloge moins demandante en ressources en limitant les calculs et les lignes de codes nécessaires pour calculer les coordonées des points. Les propiétées SVG ont aussi permis de faire que l'horloge a pu être créé en utilisant les fonctionnalités déjà présentes dans "Vue.js", ce qui a permis de ne pas devoir importer de nouvelles extensions et ainsi de rendre le code plus accessible et lisible.
 
@@ -23,3 +34,4 @@ Dans le projet Vue.js est utilisé comme framework et ses fonctionnalitées sont
 
 
 [^myref]: Tel que Adobe Illustrator ou Inkscape {cite:p}`SVG:application-utilisable`
+[^myref1]: sous forme de formules mathématiques
