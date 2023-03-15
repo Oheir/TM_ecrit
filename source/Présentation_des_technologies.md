@@ -26,28 +26,28 @@ Pour lancer une "fenêtre" svg il faut utiliser l'attribut "viewbox"
 ```{figure} img/Screenshot_viewbox1.png
 :scale: 60 %
 :alt:  
-Ce code créé une viewbox de dimensions 50x50 est y affiche un cercle [^myref2]
+Ce code créé une viewbox de dimensions 50x50 est y affiche un cercle 
 ```
 La syntaxe de viewbox est "min_x min_y width height". Cette fenêtre nous permettra par la suite d'afficher les formes SVG dans la fenêtre ouverte. Viewport est donc nécessaire pour afficher tout code SVG est et donc nécessaire pour chaque page du site.
 
 Circle : Permet de faire un cercle
-```{figure} img/Screenshot_cercle1.png
-:scale: 60 %
+```{figure} img/Screenshot_code_cercle.png
+:scale: 50 %
 :alt:
-image du cercle créé avec la viewbox [^myref2]
+code créant un cercle de rayon 2
 ```
 La syntaxe du cercle est "coordonnée_x_du_centre coordonnée_y_du_centre rayon". Le cercle est une partie importante du site car le module pour montrer la congruence est créé à partir de cet élément.
 
 text : Permet d'écrire du texte dans la fenêtre SVG
- ```{figure} img/Screenshot_text.png
-:scale: 60 %
+ ```{figure} img/Screenshot_code_text.png
+:scale: 50 %
 :alt:
-code permettant d'écrire Example dans la viewbox
+code permettant d'écrire le text number_gen[i] dans la viewbox [^myref2]
 ```
 La syntaxe de text est "centre_x centre_y". L’élément text est important car dans une viewbox le text HTML ne peut pas être affiché. Il faut donc écrire ce qui normalement est écrit grâce à des balises "h1" ou "h2"avec l’élément text.
 ### Utilisation de SVG dans le projet
 SVG est une partie centrale du site. En effet les modules interactifs sont créés à partir des éléments et propriétés SVG.
-
+Les désavantages du format ne posent aucun problèmes pour le site. Par exemple, les modules sont légers et il n'y a donc pas de problèmes d'optimisation. Un des avantages utilisé pour le site est le fait que les balises SVG ne fonctionnent pas différemment de balise HTML. Cela permet donc de créer la page sans avoir à passé par une extension ou une librairie différente. Cela permet aussi d'utiliser tous les avantages de Vuejs. Comme par exemple le que l'on puisse directement mettre des valeurs à certaines fonctions.
 ## Vue.js
 
 ### Présentation de Vue.js
@@ -58,4 +58,4 @@ Dans le projet Vue.js est utilisé comme framework et ses fonctionnalitées sont
 
 [^myref]: Tel que Adobe Illustrator ou Inkscape {cite:p}`SVG:application-utilisable`
 [^myref1]: sous forme de formules mathématiques
-[^myref2]: code utilisé pour l'affichage du cercle noir,centré, et avec un rayon d'une valeur de 5 
+[^myref2]: "fill" permettra d'écrire le texte en blanc. "font-size" permet de changer la taille du text. "transform" permet de changer la position du texte
