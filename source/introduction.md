@@ -1,7 +1,9 @@
 # Introduction 
 
 ### Contexte du TM
-L'arithmétique modulaire n'est pas un thème souvent abordé dans le curriculum de tout le monde. Cependant il est important pour comprendre des concepts que l'on utilise dans la vie de tout les jours. Il existe déjà des sites qui apprennent l'arithmétique modulaire. Cependant ils ne présentent souvent que un principe spécifique et ne vont pas dans les détails. C'est pour cela que le but de ce site est de permettre aux personnes intéressées d'apprendre ce sujet. 
+L'arithmétique modulaire n'est pas un thème souvent abordé dans le curriculum de tout le monde. Cependant il est important pour comprendre des concepts que l'on utilise dans la vie de tous les jours. Il existe déjà des sites qui apprennent l'arithmétique modulaire. Cependant ils ne présentent souvent qu'un principe spécifique et ne vont pas dans les détails.  
+
+Les principaux sites présentant le même thème que le projet est "Brilliant"{cite:p}`Site:Brilliant` et "Khan academy"{cite:p}`Site:Khan`. Cependant chacun à présente un désavantage différent. Ainsi le site s'inspire des avantages des deux sites pour être meilleur. 
 
 ### Objectifs du travail
 L'objectif principal du site est de faire apprendre aux utilisateurs les bases de l'arithmétique modulaire de manière interactive. Cet objectif est divisé en plusieurs sous objectifs. Premièrement, il faut que la théorie soit suffisamment vulgarisée. Le but étant de permettre à tout individu intéressé de pouvoir comprendre les aspects théoriques abordés. Ensuite il faut que le site ait des modules interactifs. Ceci permet à l'utilisateur de faire ses propres "expériences" pour mieux assimiler la théorie. Un autre avantage des modules interactifs est qu'ils peuvent faciliter l'apprentissage de la théorie. En effet, ils permettent à l'utilisateur de supplanter la théorie, qui même si elle se veut simplifier, peut-être trop abstraite. Enfin le dernier objectif est en rapport avec le code. Il faut en effet qu'il ne soit pas trop redondant. C'est à dire qu'il faudrait qu'il soit optimisé, qu'il ne faudrait idéalement pas que plusieurs fonctions servent le même objectif[^myref], ou encore que la fonction fasse son boulot correctement. Cet objectif est surtout un objectif de qualité qui n'a aucun rapport avec les objectifs pédagogiques. 
@@ -22,7 +24,7 @@ Ces modules sont interactifs, c’est à dire que les utilisateurs peuvent inter
 Le rapport est structuré en plusieurs parties. Il commence avec la partie "Présentation du projet", qui présente le projet de manière générale, avec des exemples d'autres sites et les buts, pédagogiques et techniques. Ensuite la partie "Apprentissage" explique le raisonnement derrière les modules interactifs et la vulgarisation de la théorie. La partie "Présentation des technologies" présente les technologies[^myref1] utilisées dans le site. "Développeur" présente le code, présente les concepts scientifiques utilisés et la mise en place de l'environnement. La dernière partie est "Travaux futurs et critiques" qui présente les problèmes actuels du site et les prochains projets d'améliorations du site. 
 
 ### Comment utiliser le site
-
+Le site utilise seulement Vuejs. Ainsi pour pouvoir lancer le site il faut seulement aller sur le dépôt github. Ensuite il faut rajouter "gitpod.io/" devant "github.com" dans la barre de recherche. Cela va lancer le site sur gitpod et permettra à l'utilisateur d'interagir avec. 
 
 [^myref1]: SVG et Vuejs
 [^myref]: Par exemple : deux fonctions qui retournent des valeurs similaires
