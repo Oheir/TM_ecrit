@@ -23,26 +23,28 @@ Le format SVG est écrit en XML, abrévation de "Extensible Markup Language", ce
 
 viewbox :
 Pour lancer une "fenêtre" svg il faut utiliser l'attribut "viewbox"
-```{figure} img/Screenshot_viewbox1.png
-:scale: 60 %
-:alt:  
-Ce code créé une viewbox de dimensions 50x50 est y affiche un cercle 
+```{code-block} HTML
+<template>
+    <svg viewBox="0 0 50 50">
+        <circle cx="50%" cy="50%" r="5" fill="black" />
+    </svg>
+</template>
 ```
 La syntaxe de viewbox est "min_x min_y width height". Cette fenêtre nous permettra par la suite d'afficher les formes SVG dans la fenêtre ouverte. Viewport est donc nécessaire pour afficher tout code SVG est et donc nécessaire pour chaque page du site.
 
 Circle : Permet de faire un cercle
-```{figure} img/Screenshot_code_cercle.png
-:scale: 50 %
-:alt:
-code créant un cercle de rayon 2
+```{code-block} HTML
+<circle cx="50" cy="50" r="2">
 ```
 La syntaxe du cercle est "coordonnée_x_du_centre coordonnée_y_du_centre rayon". Le cercle est une partie importante du site car le module pour montrer la congruence est créé à partir de cet élément.
 
 text : Permet d'écrire du texte dans la fenêtre SVG
- ```{figure} img/Screenshot_code_text.png
-:scale: 50 %
-:alt:
-code permettant d'écrire le text number_gen[i] dans la viewbox [^myref2]
+ ```{code-block} HTML
+<template>
+    <svg viewbox="0 0 100 100">
+        <text x="50" y="50"> Exemple </text>
+    </svg>
+</template>
 ```
 La syntaxe de text est « centre_x centre_y ». L’élément text est important car dans une viewbox le text HTML ne peut pas être affiché. Il faut donc écrire ce qui normalement est écrit grâce à des balises « h1 » ou « h2 » avec l’élément text. 
 ### Utilisation de SVG dans le projet

@@ -1,9 +1,9 @@
 # Introduction 
 
 ### Contexte du TM
-L'arithmétique modulaire n'est pas un thème souvent abordé dans le curriculum de tout le monde. Cependant il est important pour comprendre des concepts que l'on utilise dans la vie de tous les jours. Il existe déjà des sites qui apprennent l'arithmétique modulaire. Cependant ils ne présentent souvent qu'un principe spécifique et ne vont pas dans les détails.  
+L'arithmétique modulaire n'est pas un thème souvent abordé dans le cursus commun. Cependant il est important pour comprendre des concepts que l'on utilise dans la vie de tous les jours. Il existe déjà des sites qui apprennent l'arithmétique modulaire. Cependant ils ne présentent souvent qu'un principe spécifique et ne vont pas dans les détails.  
 
-Les principaux sites présentant le même thème que le projet est "Brilliant"{cite:p}`Site:Brilliant` et "Khan academy"{cite:p}`Site:Khan`. Cependant chacun à présente un désavantage différent. Ainsi le site s'inspire des avantages des deux sites pour être meilleur. 
+Les principaux sites présentant le même thème que le projet est "Brilliant"{cite:p}`Site:Brilliant` et "Khan academy"{cite:p}`Site:Khan`. Cependant, chacun à présente un désavantage différent. Ainsi, le projet s'inspire des avantages des deux sites[^myref2] pour être meilleur. 
 
 ### Objectifs du travail
 L'objectif principal du site est de faire apprendre aux utilisateurs les bases de l'arithmétique modulaire de manière interactive. Cet objectif est divisé en plusieurs sous objectifs. Premièrement, il faut que la théorie soit suffisamment vulgarisée. Le but étant de permettre à tout individu intéressé de pouvoir comprendre les aspects théoriques abordés. Ensuite il faut que le site ait des modules interactifs. Ceci permet à l'utilisateur de faire ses propres "expériences" pour mieux assimiler la théorie. Un autre avantage des modules interactifs est qu'ils peuvent faciliter l'apprentissage de la théorie. En effet, ils permettent à l'utilisateur de supplanter la théorie, qui même si elle se veut simplifier, peut-être trop abstraite. Enfin le dernier objectif est en rapport avec le code. Il faut en effet qu'il ne soit pas trop redondant. C'est à dire qu'il faudrait qu'il soit optimisé, qu'il ne faudrait idéalement pas que plusieurs fonctions servent le même objectif[^myref], ou encore que la fonction fasse son boulot correctement. Cet objectif est surtout un objectif de qualité qui n'a aucun rapport avec les objectifs pédagogiques. 
@@ -13,7 +13,7 @@ Les cas d'utilisation et les utilisateurs visés sont similaires. Le but du site
 
 ### Moyens utilisés pour atteindre les objectifs 
 Les objectifs sont tous atteints de manières différentes. Le premier objectif est atteint grâce à la vulgarisation de la théorie. Même si elle peut paraître objective, la vulgarisation est faite de manière à ne peut avoir trop de formules. Cependant la difficulté de la théorie est subjective. C’est pour cette raison que des modules interactifs en rapport avec la théorie sont rajoutés sur la page. 
-```{figure} img/Screenshot_cercle.png
+```{figure} img/Screenshot_black_white.png
 :scale: 40 %
 :alt: 
 Module permettant l'apprentissage de la congruence modulaire
@@ -28,3 +28,4 @@ Le site utilise seulement Vuejs. Ainsi pour pouvoir lancer le site il faut seule
 
 [^myref1]: SVG et Vuejs
 [^myref]: Par exemple : deux fonctions qui retournent des valeurs similaires
+[^myref2]: Brilliant et Khan academy
