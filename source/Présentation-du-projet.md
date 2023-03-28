@@ -14,21 +14,9 @@ Un exemple de site est "Brilliant {cite:p}`Site:Brilliant`". "Brilliant" est un 
 
 ##### Points négatifs
 
-Pour commencer Brilliant n'est disponible qu'en anglais. Cela veut dire que si une personne ne connaissant pas bien l'anglais cherche à apprendre l'arithmétique modulaire sur Brilliant, il ne peut pas. Un autre désavantage est que, comme dit dans l'introduction, Brilliant est un site payant. C'est à dire que sans payer un abonnement, l'utilisateur n'a accès qu'à la première partie de la théorie. Cependant, cela peut aussi présenter un avantage [^myref1]. 
+Pour commencer Brilliant n’est disponible qu’en anglais. Cela veut dire que si une personne ne connaissant pas bien l’anglais cherche à apprendre l’arithmétique modulaire sur Brilliant, il ne peut pas. Un autre désavantage est que, comme dit dans l’introduction, Brilliant est un site payant. C’est à dire que sans payer un abonnement, l’utilisateur n’a accès qu’à la première partie de la théorie. Cependant, cela peut aussi présenter un avantage [^myref1]. 
 
-La théorie de la page d'accueil a aussi plusieurs problèmes. Pour commencer, la théorie est très concentrée. La page contient neuf sujets différents. Ces sujets vont de la congruence à la résolution de problèmes. Cela ne permet pas d'aller dans les détails. Ce qui limite l'apprentissage de l'utilisateur. Ensuite, la différence de difficulté entre plusieurs thèmes est importante.
-```{figure} img/Screenshot_brilliant_debut1.png
-:scale: 30 %
-:alt:
-Section montrant les propriétés de l'addition modulaire {cite:p}`Site:Brilliant`
-```
-```{figure} img/Screenshot_brilliant_fin.png
-:scale: 20 %
-:alt:
-Dernière section de la page montrant la resolution d'un problème {cite:p}`Site:Brilliant`
-```
-
-
+La théorie de la page d’accueil a aussi plusieurs problèmes. Pour commencer, la théorie est très concentrée. La page contient neuf sujets différents. Ces sujets vont de la congruence à la résolution de problèmes. Cela ne permet pas d’aller dans les détails, ce qui limite l’apprentissage de l’utilisateur. Ensuite les questionnaires ne sont pas générés automatiquement. Ainsi, si un utilisateur fini tous les questionnaires, treize au total, il ne peut pas les refaire avec différentes valeurs. Cela limite l’apprentissage de l’utilisateur sur Brilliant. S'il veut avoir plus d’exercices, il doit aller sur un autre site. Un autre problème avec les questionnaires est qu’il n’y en a pas assez. En effet, sur les treize, il n’y a que deux qui sont liés directement à la théorie. Les onze autres sont des exercices plus généraux qui sont à la fin des trois grandes parties. Cela rend les exercices moins intuitifs et plus compliqués. Étant donné que les exercices ne changent jamais de réponses, si une personne se trompe l’exercice est « gâché ». 
 ##### Points positifs
 
 #### Khan Academy
