@@ -4,13 +4,44 @@
 Le projet est un site interactif visant à faire apprendre l’arithmétique modulaire. L’apprentissage est facilité grâce à plusieurs aspects du site. Premièrement, la théorie est vulgarisée. C’est à dire qu’elle est simplifiée. Cela permet d’expliquer le sujet à un plus grand nombre de personnes. Cette théorie est accompagnée par des modules. Ces modules sont séparés en deux classes. La première, les modules interactifs, servent de support à la théorie. Dans ce but, ils sont utilisés pour permettre aux utilisateurs de visualiser la théorie. La deuxième catégorie, les questionnaires, permet de renforcer la théorie apprise. Ainsi, ils ont plusieurs caractéristiques. La première étant d’être générés automatiquement. Cela permet à l’utilisateur de refaire le questionnaire plusieurs fois. 
 
 ## Intérêt du projet
-La théorie de l’arithmétique modulaire est vitale pour comprendre plusieurs concepts importants. Cependant, elle n’est pas vue dans le cursus standard. Ainsi, le site à plusieurs intérêts. Le premier est le manque d’autre sites présentant la théorie. Le thème de l’arithmétique modulaire est principalement présenté par deux sites, "Brilliant {cite:p}`Site:Brilliant`" et "Khan academy {cite:p}`Site:Khan`"[^myref]. Un autre avantage est l’interactivité du site. En effet, Le site utilise des modules interactifs. Ces modules permettent à l’utilisateur d’apprendre la théorie visuellement et de faire leur propres « expériences ». Ensuite, la théorie est simplifiée. Cela permet de faciliter l’apprentissage. 
+La théorie de l’arithmétique modulaire est vitale pour comprendre plusieurs concepts importants. Cependant, elle n’est pas vue dans le cursus standard. Ainsi, le site à plusieurs intérêts. Le premier est le manque d’autre sites présentant la théorie. Le thème de l’arithmétique modulaire est principalement présenté par deux sites, "Brilliant {cite:p}`Site:Brilliant`" et "Khan Academy {cite:p}`Site:Khan`"[^myref]. Un autre avantage est l’interactivité du site. En effet, Le site utilise des modules interactifs. Ces modules permettent à l’utilisateur d’apprendre la théorie visuellement et de faire leur propres « expériences ». Ensuite, la théorie est simplifiée. Cela permet de faciliter l’apprentissage. 
 
 ### Autres sites 
-Un exemple de site est "Brilliant {cite:p}`Site:Brilliant`". "Brilliant" est un site d'apprentissage interactif. 
 
+#### Brilliant
+##### Présentation générale
+Un exemple de site est "Brilliant {cite:p}`Site:Brilliant`". "Brilliant" est un site d'apprentissage interactif. Ce site propose plusieurs thèmes. Ceux ci vont des mathématiques à l'informatique, mais ils restent tous dans le domaine des sciences. Cependant, tout le monde n'a pas accès à toute la théorie. En effet, Brilliant fonctionne avec un système d’abonnement. C'est pourquoi l'analyse du site se concentra sur la première page, qui est gratuite. 
+
+##### Points négatifs
+
+Pour commencer Brilliant n'est disponible qu'en anglais. Cela veut dire que si une personne ne connaissant pas bien l'anglais cherche à apprendre l'arithmétique modulaire sur Brilliant, il ne peut pas. Un autre désavantage est que, comme dit dans l'introduction, Brilliant est un site payant. C'est à dire que sans payer un abonnement, l'utilisateur n'a accès qu'à la première partie de la théorie. Cependant, cela peut aussi présenter un avantage [^myref1]. 
+
+La théorie de la page d'accueil a aussi plusieurs problèmes. Pour commencer, la théorie est très concentrée. La page contient neuf sujets différents. Ces sujets vont de la congruence à la résolution de problèmes. Cela ne permet pas d'aller dans les détails. Ce qui limite l'apprentissage de l'utilisateur. Ensuite, la différence de difficulté entre plusieurs thèmes est importante.
+```{figure} img/Screenshot_brilliant_debut1.png
+:scale: 30 %
+:alt:
+Section montrant les propriétés de l'addition modulaire {cite:p}`Site:Brilliant`
+```
+```{figure} img/Screenshot_brilliant_fin.png
+:scale: 20 %
+:alt:
+Dernière section de la page montrant la resolution d'un problème {cite:p}`Site:Brilliant`
+```
+
+
+##### Points positifs
+
+#### Khan Academy
 Un autre site est "Khan Academy" qui est un site à but non lucratif qui vise aussi à faire apprendre au gens des sujets. Le fait qu'il soit totalement gratuit est un grand avantage, car une personne cherchant à apprendre un sujet peut le faire sans avoir à payer. Un autre point fort du site est que contrairement à "Brilliant" on peut voir toutes les pages et en regardant on peut voir que les sujets sont traités plus en détails avec une page par sujet en général et des exercices entre les deux, allant même jusqu'à un jeu pour montrer la congruence. Il y a aussi plus d'exercices de différentes catégories comme des choix multiples, des calculs à faire ou encore comme dit avant il y a deux "jeux" pour aider l'apprentissage. Une des fonctionnalitées intéressante et utile pour les utilisateurs est la possibilité de laisser des commentaires quand ils ont des questions sur le sujet et laisse 
 d'autre utilisateurs leur répondre. Cela permet de créer un sens de communauté et de répondre au questions potentielles de manière plus simple car ceux qui répondent aux questions sont aussi des élèves.
+
+##### Points négatifs
+
+
+
+
+##### Points positifs
+
 ## Buts du projet
 
 ### Buts pédagogiques
@@ -20,3 +51,4 @@ Le but final serait d'avoir un site comme "Khan Academy" pour l'apprentissage ma
 Les buts techniques du site sont centrés autour de faire des éléments intéractifs et modulaires. Cela veut dire que des éléments peuvent être repris facilement entre plusieurs matières semblable, on peut par exemple imaginer reprendre la "roue" qui montre les chiffre pour montrer la congruence modulaire soit utiliser pour montrer l'addition ou la soustraction modulaire. Ainsi il faut rendre les fonctionnalités importantes facile à séparer en plusieurs modules pour pouvoir gagner en temps et en lignes de codes, ce qui implique que le code doit être assez optimiser et clair pour ne pas poser de problème sur le site. Car un des problème de cette façon de faire est que si il y a un problème dans une partie importante cela veut dire que toutes les pages utilisant ce code seront cassées et la qualité générale sera mauvaise. Un autre objectif est de ne pas mettre trop de limites sur l'utilisateur et si il y en a il ne faut pas qu'elles soient trop restrictive, c'est à dire que ce serait par exemple une limite à la difficulté des exercices ou au nombre de chiffres affiché en même temps. 
 
 [^myref]: Ces sites seront présentés dans la partie "Autres sites"
+[^myref1]: Présenté dans la partie "Points positifs"
