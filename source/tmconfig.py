@@ -4,8 +4,8 @@ class TMConfig:
     first_name = 'Louis-Guillaume'
     last_name = 'Fanton'
     author = f'{first_name} {last_name}'
-    year = u'2022'
-    month = u'Décembre'
+    year = u'2023'
+    month = u'Avril'
     seminary_title = u'Développement Web'
     tutor = u"Cédric Donner et Johan Jobin"
     release = "Version intermédiaire"

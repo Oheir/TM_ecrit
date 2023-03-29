@@ -23,8 +23,6 @@ Ces modules sont interactifs, c’est à dire que les utilisateurs peuvent inter
 ### Structure du rapport 
 Le rapport est structuré en plusieurs parties. Il commence avec la partie "Présentation du projet", qui présente le projet de manière générale, avec des exemples d'autres sites et les buts, pédagogiques et techniques. Ensuite la partie "Apprentissage" explique le raisonnement derrière les modules interactifs et la vulgarisation de la théorie. La partie "Présentation des technologies" présente les technologies[^myref1] utilisées dans le site. "Développeur" présente le code, présente les concepts scientifiques utilisés et la mise en place de l'environnement. La dernière partie est "Travaux futurs et critiques" qui présente les problèmes actuels du site et les prochains projets d'améliorations du site. 
 
-### Comment utiliser le site
-Le site utilise seulement Vuejs. Ainsi pour pouvoir lancer le site il faut seulement aller sur le dépôt github. Ensuite il faut rajouter "gitpod.io/" devant "github.com" dans la barre de recherche. Cela va lancer le site sur gitpod et permettra à l'utilisateur d'interagir avec. 
 
 [^myref1]: SVG et Vuejs
 [^myref]: Par exemple : deux fonctions qui retournent des valeurs similaires

@@ -16,6 +16,7 @@ Développement d’un site interactif pour l’apprentissage de l’arithmétiqu
     Présentation_des_technologies.md
     todo.rst
     references.rst
+    Utilisation.md
 
 ..  toctree::
     :maxdepth: 2
