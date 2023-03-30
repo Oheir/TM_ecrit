@@ -42,13 +42,18 @@ Ensuite, il a plus de huit mille leçons. Ces leçons ont des thèmes très vari
 "Khan Academy" contient aussi des modules interactifs. 
 Le site contient plusieurs pages, dix-sept au total. Chaque page présente un concept spécifique. Ces pages sont ordonnées des plus basiques au plus compliquées. Elles sont séparées par des questionnaires. Ces questionnaires ne sont pas générés automatiquement. Cependant, ils sont assez nombreux pour que cela ne pose pas de problèmes. 
 Un type questionnaire interactif très intéressant est un jeu. En tout il y a deux versions de ce jeu différentes. Elles présentent les théories importantes de manière interactive. Ces jeux permettent d'apprendre la théorie ludiquement.
+```{figure} img/Khan_screen.png
+:scale: 30 %
+:alt: 
+Exemeple du jeu sur "Khan Academy" {cite:p}`Site:Khan`
+```
 "Khan Academy" a aussi une possibilité d'interagir avec la communauté. À la fin de chaque chapitre, il est possible de poser une question sur la théorie présentée. Cette question est ensuite répondue par la communauté. Cela permet de répondre à toute les éventuelles question qu'un utilisateur a sans devoir chercher sur internet. Cependant, la majorité des questions et des réponses sont en anglais. 
 
 ## Aspects du projet
 
 ### Aspects pédagogiques
-Les buts pédagogiques sont centrés autour de rendre la matière facile à comprendre. Dans ce but il faut que la théorie soit vulgarisée le mieux possible et que les exercices soient faciles mais assez modulaires pour permettre de rendre l'experience plus intéressante. L'objectif serait que le site ressemble à "Khan Academy" sans les jeux et les commentaire avec une UI intuitive et de la théorie faciel à comprendre. Il faudrait que l'utilisateur puisse comprendre la théorie sans avoir à chercher des termes autre part ou à regarder sur internet ce que veulent dire les symboles. Les calculs quant à seront séparés en plusieurs difficultés que l'utilisateur pourra choisir selon son envie et ses connaissances. Cela permettra de les rendre plus faciles pour l'utilisateur et de rendre l'apprentissage plus valorisant car on peut voir une amélioration claire sur la durée ce qui pourrait encourager certaines personnes. Ensuite les éléments interactifs présents sur le site permettent de rendre l'apprentissage plus visuelle et peut aussi aider les utilisateurs à mieux intégrer les concepts. Ils pourront ainsi faire leurs propres experiences pour aider leur apprentissage et ne seront pas limités par les contraintes imposées par les exercices. Car même si ils sont générés automatiquement ils sont quand même limités par le type de calcul qui doit être programmé. Les designs permettront donc de complémenter ces problèmes et de rendre l'apprentissage plus intéréssant et facile pour tout le monde.
-Le but final serait d'avoir un site comme "Khan Academy" pour l'apprentissage mais avec un focus plus sur l'intéractivité pour l'apprentissage. Il faut aussi que la théorie soit facile à comprendre et que le site soit intuitif dans son utilisation et dans sa conception.
+
+
 ### Aspects techniques
 L'aspect technique du site est aussi important. 
 

@@ -16,9 +16,9 @@ Développement d’un site interactif pour l’apprentissage de l’arithmétiqu
     Présentation_des_technologies.md
     todo.rst
     references.rst
-    Utilisation.md
     declaration-honneur.md
-
+    Utilisation.md
+    
 ..  toctree::
     :maxdepth: 2
     :caption: Tutoriel Sphinx
