@@ -4,13 +4,30 @@
 Le projet est un site interactif visant à faire apprendre l’arithmétique modulaire. L’apprentissage est facilité grâce à plusieurs aspects du site. Premièrement, la théorie est vulgarisée. C’est à dire qu’elle est simplifiée. Cela permet d’expliquer le sujet à un plus grand nombre de personnes. Cette théorie est accompagnée par des modules. Ces modules sont séparés en deux classes. La première, les modules interactifs, servent de support à la théorie. Dans ce but, ils sont utilisés pour permettre aux utilisateurs de visualiser la théorie. La deuxième catégorie, les questionnaires, permet de renforcer la théorie apprise. Ainsi, ils ont plusieurs caractéristiques. La première étant d’être générés automatiquement. Cela permet à l’utilisateur de refaire le questionnaire plusieurs fois. 
 
 ### Présentation du module de congruence
-L'horloge est {cite:p}`brilliant:intro-sac-à-dos` for an introduction to non-standard analysis [^myref].
-un design centrale de l'apprentissage en raison de sa présence dans la page de la congruence modulaire qui est le premier chapitre à regarder. L'horloge est un design standard quand on veut expliquer la congruence car tout le monde peut comprendre que comme les aiguilles d'une montre les chiffres peuvent faire plusieurs fois le tour de l'horloge. Cela permet de rendre l'apprentissage plus intuitif. Cependant sur le site l'utilisateur peut changer le modulo donc le nombre de points sur l'horloge, cela lui permet de voir plus en profondeur comment la congruence se passe avec autre chose qu'un modulo prédéterminé par le créateur du schéma. Le design est passé par plusieurs étapes avant de revenir à l'horloge basique, cependant il est revenu au à la base après plusieurs designs. En effet les autres designs, comme une de barre de chargement qui se remplit, ont été trouvés moins intuitifs et pourraient obstruer l'apprentissage de l'utilisateur.
+```{figure} img/Screenshot_black_white.png
+:scale: 25 %
+:alt: 
+Screenshot du module de congruence
+```
+L'horloge est une image souvent utilisée pour illustrer la congruence. C'est pour cette raison que le module de congruence s'en inspire. Cependant, pour le rendre interactif, il a fallu lui apporter plusieurs modifications. Le module en lui-même est séparé en plusieurs parties importantes, deux au total. 
 
+La première est la roue en elle-même. Elle a été changée pour permettre de changer les valeurs et la rendre interactive. Les points représentent les différents chiffres possibles avec le modulo sélectionner. Le modulo est choisi grâce à l'`input` au-dessus de l'horloge et ne possède pas de limites. Cependant, l'horloge ne marche pas avec des chiffres négatifs et à tendance à faire planter le site si le modulo est trop grand. Ensuite, l'utilisateur peut cliquer sur un cercle pour le sélectionner. Quand il est sélectionné, le cercle grandit. Ce qui permet de le mettre en évidence. Le deuxième, la barre de congruence, permet de montrer comment l'écriture marche. L'utilisateur peut choisir un cercle. Ensuite, le texte en dessous de la barre s'ajustera en fonction du cercle choisi. Cette fonction est liée à la fonction de l'horloge. Quand l'utilisateur choisi un cercle sur l'horloge, la barre se met à jour automatiquement. L'utilisateur peut ensuite utiliser les flèches pour se déplacer entre les valeurs possibles. Ces valeurs ne sont limitées que par le modulo choisi. Ensuite, une fois qu'il choisit un cercle, le calcul situé en dessous de la barre se met à jour. Ce calcul montre le cercle de la barre choisi, celui de l'horloge et le modulo choisi. Cela permet à l'utilisateur de visualiser comment la congruence s'écrit et d'assimiler les valeurs. 
 ### Présentation des tableaux
 
+#### Tableau PGDC
+```{figure} img/Screenshot_black_white.png
+:scale: 30 %
+:alt: 
+Screenshot du module de congruence
+```
+#### Tableau inverse
+```{figure} img/Screenshot_black_white.png
+:scale: 30 %
+:alt: 
+Screenshot du module de congruence
+```
 ### Présentation des questionnaires
-Le questionnaire est une partie importante de l'apprentissage de la matière. La théorie est certe importante mais il faut qu'elle soit accompagné par de la "pratique". Pour cela il faut que les questions soient en rapport avec la théorie et ne soit pas trop difficile pour rendre l'apprentissage plus facile. Le questionnaire est donc divisé en plusieurs difficultés pour donner à l'utilisateur la possibilté de choisir le niveau qui est le plus adapté à ses connaissances et son envies d'apprendre. Un problème que l'on peut voir dans d'autre sites sont que les questionnaires ne sont pas fait aléatoirement ce qui enlève la possibilité de le refaire plusieurs fois. C'est pourquoi le questionnaire est créé avec des chiffres aléatoires pour le rendre plus intéressant pour l'utilisateur et permet d'apprendre sans changer de site à chaque fin de série.
+
 
 ## Intérêt du projet
 La théorie de l’arithmétique modulaire est vitale pour comprendre plusieurs concepts importants. Cependant, elle n’est pas vue dans le cursus standard. Ainsi, le site à plusieurs intérêts. Le premier est le manque d’autre sites présentant la théorie. Le thème de l’arithmétique modulaire est principalement présenté par deux sites, "Brilliant {cite:p}`Site:Brilliant`" et "Khan Academy {cite:p}`Site:Khan`"[^myref]. Un autre avantage est l’interactivité du site. En effet, Le site utilise des modules interactifs. Ces modules permettent à l’utilisateur d’apprendre la théorie visuellement et de faire leur propres « expériences ». Ensuite, la théorie est simplifiée. Cela permet de faciliter l’apprentissage. 
