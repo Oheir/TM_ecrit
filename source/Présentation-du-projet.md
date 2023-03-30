@@ -33,18 +33,16 @@ Cela limite l’apprentissage de l’utilisateur sur "Brilliant". S'il veut avoi
 
 #### Présentation générale
 
-"Khan Academy {cite:p}`Site:Khan`" est une association non-lucrative. Son objectif est de  "fournir un contenu éducatif de qualité, gratuit, accessible à tous et partout"{cite:p}`Khan:wiki`. Ainsi, le site ne nécessite pas d'abonnement pour avoir accès à toute la théorie. Comme "Brilliant {cite:p}`Site:Brilliant`" "Khan Academy" est un site interactifs. La théorie sur le site va des mathématiques à l'économie en passant par l'histoire de l'art {cite:p}`Khan:wiki`. Le site contient plus de huit mille leçons différentes complètements gratuites. Cependant, les points positifs et négatifs seront seulement jugés sur la partie arithmétique modulaire
+"Khan Academy {cite:p}`Site:Khan`" est une association non-lucrative. Son objectif est de "fournir un contenu éducatif de qualité, gratuit, accessible à tous et partout"{cite:p}`Khan:wiki`. Ainsi, le site ne nécessite pas d'abonnement pour avoir accès à toute la théorie. Comme "Brilliant {cite:p}`Site:Brilliant`" "Khan Academy" est un site interactif. La théorie sur le site va des mathématiques à l'économie en passant par l'histoire de l'art {cite:p}`Khan:wiki`. Le site contient plus de huit mille leçons différentes complètements gratuites. Cependant, les points positifs et négatifs seront seulement jugés sur la partie arithmétique modulaire 
 
-#### Points positifs
-Pour commencer, "Khan Academy" est gratuit. Cela veut dire que chaque utilisateur à accès à toutes les leçons présentées par le site. "Khan Academy" est aussi disponible en français et sur mobile. Cela permet de rendre la théorie accessible au plus de monde possible.
+#### Points positifs 
 
-Ensuite, il a plus de huit mille leçons. Ces leçons ont des thèmes très variés[^myref4]. Ainsi, le contenu présent sur le site est énorme et varié. 
-"Khan Academy" contient aussi des modules interactifs.
-Le site contient plusieurs pages, dix-sept au total. Chaque page présente un concept spécifique. Ces pages sont ordonnées des plus basiques au plus compliquées. Elle sont séparés par des questionnaires. Ces questionnaires ne sont pas générés automatiiquements. Cependant, ils sont assez nombreux pour que cela ne pose pas de problèmes.
-Un questionnaire interactif très intéressant est un jeu. En tout il y a trois version de ce jeu différentes. Elles présentes les théories importantes de manière interactive. Ces jeux sont parfaits pour assimiler la théorie en s'amusants.
-
-
-#### Points négatifs
+Pour commencer, "Khan Academy" est gratuit. Cela veut dire que chaque utilisateur à accès à toutes les leçons présentées par le site. "Khan Academy" est aussi disponible en français et sur mobile. Cela permet de rendre la théorie accessible au plus de monde possible. 
+Ensuite, il a plus de huit mille leçons. Ces leçons ont des thèmes très variés[^myref4]. Ainsi, le contenu présent sur le site est énorme et varié.  
+"Khan Academy" contient aussi des modules interactifs. 
+Le site contient plusieurs pages, dix-sept au total. Chaque page présente un concept spécifique. Ces pages sont ordonnées des plus basiques au plus compliquées. Elles sont séparées par des questionnaires. Ces questionnaires ne sont pas générés automatiquement. Cependant, ils sont assez nombreux pour que cela ne pose pas de problèmes. 
+Un type questionnaire interactif très intéressant est un jeu. En tout il y a deux versions de ce jeu différentes. Elles présentent les théories importantes de manière interactive. Ces jeux permettent d'apprendre la théorie ludiquement.
+"Khan Academy" a aussi une possibilité d'interagir avec la communauté. À la fin de chaque chapitre, il est possible de poser une question sur la théorie présentée. Cette question est ensuite répondue par la communauté. Cela permet de répondre à toute les éventuelles question qu'un utilisateur a sans devoir chercher sur internet. Cependant, la majorité des questions et des réponses sont en anglais. 
 
 ## Aspects du projet
 

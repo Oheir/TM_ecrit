@@ -17,6 +17,7 @@ Développement d’un site interactif pour l’apprentissage de l’arithmétiqu
     todo.rst
     references.rst
     Utilisation.md
+    declaration-honneur.md
 
 ..  toctree::
     :maxdepth: 2
