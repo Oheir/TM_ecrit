@@ -3,6 +3,15 @@
 ## Description du projet et des modules
 Le projet est un site interactif visant à faire apprendre l’arithmétique modulaire. L’apprentissage est facilité grâce à plusieurs aspects du site. Premièrement, la théorie est vulgarisée. C’est à dire qu’elle est simplifiée. Cela permet d’expliquer le sujet à un plus grand nombre de personnes. Cette théorie est accompagnée par des modules. Ces modules sont séparés en deux classes. La première, les modules interactifs, servent de support à la théorie. Dans ce but, ils sont utilisés pour permettre aux utilisateurs de visualiser la théorie. La deuxième catégorie, les questionnaires, permet de renforcer la théorie apprise. Ainsi, ils ont plusieurs caractéristiques. La première étant d’être générés automatiquement. Cela permet à l’utilisateur de refaire le questionnaire plusieurs fois. 
 
+### Présentation du module de congruence
+L'horloge est {cite:p}`brilliant:intro-sac-à-dos` for an introduction to non-standard analysis [^myref].
+un design centrale de l'apprentissage en raison de sa présence dans la page de la congruence modulaire qui est le premier chapitre à regarder. L'horloge est un design standard quand on veut expliquer la congruence car tout le monde peut comprendre que comme les aiguilles d'une montre les chiffres peuvent faire plusieurs fois le tour de l'horloge. Cela permet de rendre l'apprentissage plus intuitif. Cependant sur le site l'utilisateur peut changer le modulo donc le nombre de points sur l'horloge, cela lui permet de voir plus en profondeur comment la congruence se passe avec autre chose qu'un modulo prédéterminé par le créateur du schéma. Le design est passé par plusieurs étapes avant de revenir à l'horloge basique, cependant il est revenu au à la base après plusieurs designs. En effet les autres designs, comme une de barre de chargement qui se remplit, ont été trouvés moins intuitifs et pourraient obstruer l'apprentissage de l'utilisateur.
+
+### Présentation des tableaux
+
+### Présentation des questionnaires
+Le questionnaire est une partie importante de l'apprentissage de la matière. La théorie est certe importante mais il faut qu'elle soit accompagné par de la "pratique". Pour cela il faut que les questions soient en rapport avec la théorie et ne soit pas trop difficile pour rendre l'apprentissage plus facile. Le questionnaire est donc divisé en plusieurs difficultés pour donner à l'utilisateur la possibilté de choisir le niveau qui est le plus adapté à ses connaissances et son envies d'apprendre. Un problème que l'on peut voir dans d'autre sites sont que les questionnaires ne sont pas fait aléatoirement ce qui enlève la possibilité de le refaire plusieurs fois. C'est pourquoi le questionnaire est créé avec des chiffres aléatoires pour le rendre plus intéressant pour l'utilisateur et permet d'apprendre sans changer de site à chaque fin de série.
+
 ## Intérêt du projet
 La théorie de l’arithmétique modulaire est vitale pour comprendre plusieurs concepts importants. Cependant, elle n’est pas vue dans le cursus standard. Ainsi, le site à plusieurs intérêts. Le premier est le manque d’autre sites présentant la théorie. Le thème de l’arithmétique modulaire est principalement présenté par deux sites, "Brilliant {cite:p}`Site:Brilliant`" et "Khan Academy {cite:p}`Site:Khan`"[^myref]. Un autre avantage est l’interactivité du site. En effet, Le site utilise des modules interactifs. Ces modules permettent à l’utilisateur d’apprendre la théorie visuellement et de faire leur propres « expériences ». Ensuite, la théorie est simplifiée. Cela permet de faciliter l’apprentissage. 
 
@@ -51,14 +60,22 @@ Exemeple du jeu sur "Khan Academy" {cite:p}`Site:Khan`
 
 ## Aspects du projet
 
-### Aspects pédagogiques
+### Aspect pédagogique
+Le premier aspect est l'aspect pédagogique. Cet aspect est centré autour de rendre la théorie la plus accessible possible. L'objectif principal pédagogique du site est qu'il ressemble
 
+Premièrement, la théorie est vulgarisée. Elle n’utilise pas de formules mathématiques formelles. Ainsi, l'utilisateur peut comprendre la théorie sans avoir de connaissances avant. 
+Ensuite, des modules intéractifs sont créés pour le site. Ces modules servent à aider l'apprentissage de la théorie. Ils sont interactifs et permettent d
 
-### Aspects techniques
+#### Intérets pour l'utilisateur 
+Un probème que des utilisateurs peuvent rencontrer en cherchant de la théorie pour l'arithmétique modulaire est le language complexe des mathématiques. En effet la théorie est souvent écrite avec des symboles et des expressions qu'il faut connaitre au préalable pour pouvoir les comprendre et ainsi pouvoir lire le texte que l'on veut lire. Ainsi pour empécher que cette situation se produise sur dans le projet il faut vulgariser le vocabulaire et les explications, le but étant que n'importe qui puisse arriver sur le site et comprendre la théorie sans avoir à rechercher de symboles ou de mots écrit sur le site. Pour pouvoir accomplir cet objectif le site a plusieurs moyen. Par exemple les textes et passages difficiles peuvent être remplacés par des schéma, des desssins ou des éléments interactifs pour rendre le problème plus simple et permet de rendre les explications visuels et intéractive. Ce moyen rend l'apprentissage plus facile et intéressant pour l'utilisateur. Un autre moyen est de remplacer les termes strictes mathématiques par des mots plus communs et simples à comprendre pour l'utilisateur, cette façon de faire rend certe la théorie moins précise et mathématiquement correcte mais la rend plus lisible et simple à comprendre, ce qui est en accord avec l'objectif du site de rendre l'apprentissage plus intéressant.
+
+### Aspect technique
 L'aspect technique du site est aussi important. 
 
 Premièrement, les modules interactifs sont optimisés et fonctionnent avec le plus de valeurs possibles. L'optimisation est importante pour permettre aux utilisateurs d'utiliser les modules même si les valeurs rentrées sont grandes. Cela leurs permet de tester le plus de valeurs possibles, ainsi que d'étendre l'utilisation du module. Le deuxième aspect, le fonctionnement du module, augmente l'utilisabilité et enlève les bugs. Pour commencer, les modules peuvent prendre toutes les valeurs possibles. C'est à dire que l'utilisateur n'est pas limité par le module. Il peut choisir des valeurs qui l'intéresse. Cependant, certaines valeurs ne marchent pas. La plupart sont dues aux mathématiques dans le code[^myref2]. Ensuite, les bugs sont limités. Le code marche pour la majorité des valeurs[^myref3] et avec des valeurs élevées. 
 Deuxièmement, la structure des fichiers doit être intuitive. Pour commencer, les fichiers sont structurés par partie. Chaque partie est divisée en trois pages différentes. La première contient le code pour le module, la deuxième le texte et la dernière le questionnaire. Cela permet de facilement trouver un fichier et de rajouter des parties si nécessaire.
+Pour finir, le code doit être compréhensible. Premièrement, le code est optimisé. Cette optimisation permet de le rendre plus lisible et clair. Ainsi, s'il y a, par exemple, un bug. Il peut facilement être repéré et réparer. Ensuite, il doit être modulaire. Par exemple, si un nouveau module est créé qui ressemble à un ancien. Il est possible de prendre le code, remplacer certaines valeurs et le faire marcher. Cela permet de faire des modules facilement. 
+
 
 [^myref]: Ces sites seront présentés dans la partie "Autres sites"
 [^myref1]: Présenté dans la partie "Points positifs"

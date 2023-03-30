@@ -1,20 +1,6 @@
-# Apprentissage
-```{figure} img/tree-736885__480.jpg
-:scale: 50 %
-:alt: map to buried treasure
+# Présentation de l
 
-This is the caption of the figure (a simple paragraph).
-
-The legend consists of all elements after the caption.  In this
-case, the legend consists of this paragraph and the following
-table:
-
-| Symbol | Meaning |
-| ------ | ------- |
-| :fish: | fishy   |
-
-```
-## Raisons des designs
+## Descriptions des modules
 
 ### Raisons du design de l'horloge
 L'horloge est {cite:p}`brilliant:intro-sac-à-dos` for an introduction to non-standard analysis [^myref].
