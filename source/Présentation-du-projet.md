@@ -31,7 +31,6 @@ La théorie de l’arithmétique modulaire est vitale pour comprendre plusieurs 
 
 #### Présentation générale
 Un exemple de site est "Brilliant {cite:p}`Site:Brilliant`". "Brilliant" est un site d'apprentissage interactif. Ce site propose plusieurs thèmes. Ceux ci vont des mathématiques à l'informatique, mais ils restent tous dans le domaine des sciences. Cependant, tout le monde n'a pas accès à toute la théorie. En effet, "Brilliant" fonctionne avec un système d’abonnement. C'est pourquoi l'analyse du site se concentra sur la première page, qui est gratuite. 
-
 #### Points négatifs
 
 Pour commencer, "Brilliant" n’est disponible qu’en anglais. Cela veut dire que si une personne ne connaissant pas bien l’anglais cherche à apprendre l’arithmétique modulaire sur "Brilliant", il ne peut pas. Un autre désavantage est que, comme dit dans l’introduction, "Brilliant" est un site payant. C’est à dire que sans payer un abonnement, l’utilisateur n’a accès qu’à la première partie de la théorie. Cependant, cela peut aussi présenter un avantage [^myref1]. 
@@ -72,10 +71,7 @@ Exemeple du jeu sur "Khan Academy" {cite:p}`Site:Khan`
 
 ### Aspect pédagogique
 Le premier aspect est l'aspect pédagogique. Cet aspect est centré autour de rendre la théorie la plus accessible possible. L'objectif pédagogique principal est quel le site ressemble à "Khan Academy {cite:p}`Site:Khan`". 
-Premièrement, la théorie doit être simplifiée. C'est à dire qu'elle est compréhensible pour la majorité des personnes. Cela permet aussi de rendre l'apprentissage plus facile. 
-Deuxièmement, les modules doivent aider l'apprentissage. Cela est aidé 
-
-Un probème que des utilisateurs peuvent rencontrer est le language complexe des mathématiques. En effet, la théorie est souvent écrite avec des symboles et des expressions mathématique. L'utilisateur doit connaître les connaître si il veut pouvoir comprendre le texte. Ainsi, la thérie doit être simplifiée. Le but est qu'elle soit compréhensible sans avoir à rechercher  , le but étant que n'importe qui puisse arriver sur le site et comprendre la théorie sans avoir à rechercher de symboles ou de mots écrit sur le site. Pour pouvoir accomplir cet objectif le site a plusieurs moyen. Par exemple les textes et passages difficiles peuvent être remplacés par des schéma, des desssins ou des éléments interactifs pour rendre le problème plus simple et permet de rendre les explications visuels et intéractive. Ce moyen rend l'apprentissage plus facile et intéressant pour l'utilisateur. Un autre moyen est de remplacer les termes strictes mathématiques par des mots plus communs et simples à comprendre pour l'utilisateur, cette façon de faire rend certe la théorie moins précise et mathématiquement correcte mais la rend plus lisible et simple à comprendre, ce qui est en accord avec l'objectif du site de rendre l'apprentissage plus intéressant.
+Un probème que des utilisateurs peuvent rencontrer est le language complexe des mathématiques. En effet, la théorie est souvent écrite avec des symboles et des expressions mathématique. L'utilisateur doit les connaître si il veut pouvoir comprendre le texte. Ainsi, la thérie doit être simplifiée. Il est possible de la comprendre sans avoir à rechercher sur internet. Ensuite, les modules servent à accompagner la théorie. Ils permettent d'illuster les théorèmes de manière interactive. Ainsi, les théorèmes les plus difficiles 
 
 ### Aspect technique
 L'aspect technique du site est aussi important. 
