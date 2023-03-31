@@ -13,7 +13,8 @@ Développement d’un site interactif pour l’apprentissage de l’arithmétiqu
     introduction.md
     Présentation-du-projet.md
     Présentation_des_technologies.md
-    todo.rst
+    Developpeur.md
+    Conclusion.md
     references.rst
     declaration-honneur.md
     Utilisation.md
