@@ -13,19 +13,16 @@ L'horloge est une image souvent utilisée pour illustrer la congruence. C'est po
 
 La première est la roue en elle-même. Elle a été changée pour permettre de changer les valeurs et la rendre interactive. Les points représentent les différents chiffres possibles avec le modulo sélectionner. Le modulo est choisi grâce à l'`input` au-dessus de l'horloge et ne possède pas de limites. Cependant, l'horloge ne marche pas avec des chiffres négatifs et à tendance à faire planter le site si le modulo est trop grand. Ensuite, l'utilisateur peut cliquer sur un cercle pour le sélectionner. Quand il est sélectionné, le cercle grandit. Ce qui permet de le mettre en évidence. Le deuxième, la barre de congruence, permet de montrer comment l'écriture marche. L'utilisateur peut choisir un cercle. Ensuite, le texte en dessous de la barre s'ajustera en fonction du cercle choisi. Cette fonction est liée à la fonction de l'horloge. Quand l'utilisateur choisi un cercle sur l'horloge, la barre se met à jour automatiquement. L'utilisateur peut ensuite utiliser les flèches pour se déplacer entre les valeurs possibles. Ces valeurs ne sont limitées que par le modulo choisi. Ensuite, une fois qu'il choisit un cercle, le calcul situé en dessous de la barre se met à jour. Ce calcul montre le cercle de la barre choisi, celui de l'horloge et le modulo choisi. Cela permet à l'utilisateur de visualiser comment la congruence s'écrit et d'assimiler les valeurs. 
 ### Présentation des tableaux
+Les modules des tableaux ont étés inspirés par les tableaux du cours d'AM. Ce design a été choisi car il est unique.  Il permet de voir les étapes qui permettent d'arriver aux résultats. Ces tableaux sont utilisés pour enseigner l'algorithme d'euclide et l'inverse modulaire.
 
-#### Tableau PGDC
+Les tableaux fonctionnent grâce à deux `input` qui servent comme variables pour remplir le tableau. Ensuite, la fonction de remplissage de chaque tableau va générer les chiffres et equations nécessaires. Ces chiffres ne seront pas affichés tout de suite. L'utilisateur peut cliquer sur les boutons "étape suivante" et "étape précédente". Ces boutons permettent d'afficher la prochaine étape ou l'étape précédente. Ainsi, les tableaux ne sont pas remplis au début. Cela, permet de voir les étapes nécessaires pour arriver au résultat final.
+
 ```{figure} img/Screenshot_black_white.png
 :scale: 30 %
 :alt: 
 Screenshot du module de congruence
 ```
-#### Tableau inverse
-```{figure} img/Screenshot_black_white.png
-:scale: 30 %
-:alt: 
-Screenshot du module de congruence
-```
+
 ### Présentation des questionnaires
 
 
