@@ -22,10 +22,6 @@ Les tableaux fonctionnent grâce à deux `input` qui servent comme variables pou
 :alt: 
 Screenshot du module de congruence
 ```
-
-### Présentation des questionnaires
-
-
 ## Intérêt du projet
 La théorie de l’arithmétique modulaire est vitale pour comprendre plusieurs concepts importants. Cependant, elle n’est pas vue dans le cursus standard. Ainsi, le site à plusieurs intérêts. Le premier est le manque d’autre sites présentant la théorie. Le thème de l’arithmétique modulaire est principalement présenté par deux sites, "Brilliant {cite:p}`Site:Brilliant`" et "Khan Academy {cite:p}`Site:Khan`"[^myref]. Un autre avantage est l’interactivité du site. En effet, Le site utilise des modules interactifs. Ces modules permettent à l’utilisateur d’apprendre la théorie visuellement et de faire leur propres « expériences ». Ensuite, la théorie est simplifiée. Cela permet de faciliter l’apprentissage. 
 
@@ -75,13 +71,11 @@ Exemeple du jeu sur "Khan Academy" {cite:p}`Site:Khan`
 ## Aspects du projet
 
 ### Aspect pédagogique
-Le premier aspect est l'aspect pédagogique. Cet aspect est centré autour de rendre la théorie la plus accessible possible. L'objectif principal pédagogique du site est qu'il ressemble
+Le premier aspect est l'aspect pédagogique. Cet aspect est centré autour de rendre la théorie la plus accessible possible. L'objectif pédagogique principal est quel le site ressemble à "Khan Academy {cite:p}`Site:Khan`". 
+Premièrement, la théorie doit être simplifiée. C'est à dire qu'elle est compréhensible pour la majorité des personnes. Cela permet aussi de rendre l'apprentissage plus facile. 
+Deuxièmement, les modules doivent aider l'apprentissage. Cela est aidé 
 
-Premièrement, la théorie est vulgarisée. Elle n’utilise pas de formules mathématiques formelles. Ainsi, l'utilisateur peut comprendre la théorie sans avoir de connaissances avant. 
-Ensuite, des modules intéractifs sont créés pour le site. Ces modules servent à aider l'apprentissage de la théorie. Ils sont interactifs et permettent d
-
-#### Intérets pour l'utilisateur 
-Un probème que des utilisateurs peuvent rencontrer en cherchant de la théorie pour l'arithmétique modulaire est le language complexe des mathématiques. En effet la théorie est souvent écrite avec des symboles et des expressions qu'il faut connaitre au préalable pour pouvoir les comprendre et ainsi pouvoir lire le texte que l'on veut lire. Ainsi pour empécher que cette situation se produise sur dans le projet il faut vulgariser le vocabulaire et les explications, le but étant que n'importe qui puisse arriver sur le site et comprendre la théorie sans avoir à rechercher de symboles ou de mots écrit sur le site. Pour pouvoir accomplir cet objectif le site a plusieurs moyen. Par exemple les textes et passages difficiles peuvent être remplacés par des schéma, des desssins ou des éléments interactifs pour rendre le problème plus simple et permet de rendre les explications visuels et intéractive. Ce moyen rend l'apprentissage plus facile et intéressant pour l'utilisateur. Un autre moyen est de remplacer les termes strictes mathématiques par des mots plus communs et simples à comprendre pour l'utilisateur, cette façon de faire rend certe la théorie moins précise et mathématiquement correcte mais la rend plus lisible et simple à comprendre, ce qui est en accord avec l'objectif du site de rendre l'apprentissage plus intéressant.
+Un probème que des utilisateurs peuvent rencontrer est le language complexe des mathématiques. En effet, la théorie est souvent écrite avec des symboles et des expressions mathématique. L'utilisateur doit connaître les connaître si il veut pouvoir comprendre le texte. Ainsi, la thérie doit être simplifiée. Le but est qu'elle soit compréhensible sans avoir à rechercher  , le but étant que n'importe qui puisse arriver sur le site et comprendre la théorie sans avoir à rechercher de symboles ou de mots écrit sur le site. Pour pouvoir accomplir cet objectif le site a plusieurs moyen. Par exemple les textes et passages difficiles peuvent être remplacés par des schéma, des desssins ou des éléments interactifs pour rendre le problème plus simple et permet de rendre les explications visuels et intéractive. Ce moyen rend l'apprentissage plus facile et intéressant pour l'utilisateur. Un autre moyen est de remplacer les termes strictes mathématiques par des mots plus communs et simples à comprendre pour l'utilisateur, cette façon de faire rend certe la théorie moins précise et mathématiquement correcte mais la rend plus lisible et simple à comprendre, ce qui est en accord avec l'objectif du site de rendre l'apprentissage plus intéressant.
 
 ### Aspect technique
 L'aspect technique du site est aussi important. 
