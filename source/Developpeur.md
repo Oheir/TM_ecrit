@@ -49,14 +49,14 @@ La fonction `return` les équations permettant de remplir le tableau. Ensuite, e
 
 ### Rôle des fichiers  
 
-Les fichiers sont par parties. Chaque partie contient trois fichiers. 
-Ces fichiers commencent par le fichier contenant le module interactif. Ensuite, le prochain fichier contient le texte et est le fichier principal de la partie. Le dernier fichier est celui qui contient le code pour le questionnaire. Tous ces fichiers sont liés sur le fichier texte. C'est ce fichier qui est ensuite utilisé sur le site. 
+Les fichiers sont divisés en section. Chaque section contenant trois sous-fichiers. 
+Le premier contient le module interactif. Le deuxième contenant le texte et aussi le sous-fichier principal de la section. Le dernier sous-fichier est celui qui contient le code pour le questionnaire. Le sous-fichier module interactif et celui contenant le code pour le questionnaire sont reliés au fichier texte. C'est ce sous-fichier qui est ensuite utilisé sur le site. 
 
 ## Regard critique
 
 ### Bugs
 
-Le code ne comporte pas beaucoup de bugs. Le principal est celui du tableau d'inverse modulaire. Ce bug fait que, pour certaines valeurs, le signe du calcul est inversé. L'inverse modulaire alors trouvé et donc faux. Cependant, ce bug n'est pas réplicable. C'est à dire que des valeurs qui avant ne marchaient pas, marchent. Par exemple, pour une valeur de "a" de 166, le tableau va retourner une valeu pour l'inverse de 231 pour un "b" valant 23. Cette valeur n'est pas possible car le modulo est égal à 166.
+Le code ne comporte pas beaucoup de bugs. Le principal est celui du tableau d'inverse modulaire. Ce bug fait que, pour certaines valeurs, le signe du calcul est inversé. L'inverse modulaire alors trouvé est donc faux. Cependant, ce bug n'est pas réplicable. C'est à dire que des valeurs qui avant ne marchaient pas, marchent. Par exemple, pour une valeur de "a" de 166, le tableau va retourner une valeu pour l'inverse de 231 pour un "b" valant 23. Cette valeur n'est pas possible car le modulo est égal à 166.
 
 ### Éléments ne répondant pas aux objectifs fixés
 
@@ -66,6 +66,10 @@ Pour commencer, le tableau pour trouver le pgdc ne devait pas être un tableau.
 :alt:  
 Projet initial du module pgdc {cite:p}`Algo:Eucl` 
 ``` 
-Il devait faire un rectangle comme l'image si-dessus. Cet objectif n'a pas été réussi à cause de plusieurs raison. Premièrement, coder comment trouver les valeurs des rectangles s'est avéré plus dur que prévu. Par exemple, trouver si il fallait le mettre en hauteur, largeur, le nomnbre de rectangles à rajouter et la dernière étape. Faire tout cela a pris trop de temps. Il a donc été décidé de ne pas continuer dans cette direction. Il serai possible d'imaginer une version moins compliquée. C'est à dire sans la dernière étape ou en remplacant le rectangle par une autre forme.
+Il devait faire un rectangle comme l'image si-dessus. Cet objectif n'a pas été atteints pour plusieurs raison. Premièrement, coder comment trouver les valeurs des rectangles s'est avéré plus dur que prévu. Par exemple, trouver si il fallait le mettre en hauteur, largeur, le nomnbre de rectangles à rajouter et la dernière étape. Faire tout cela a pris trop de temps. Il a donc été décidé de ne pas continuer dans cette direction. Il serai possible d'imaginer une version moins compliquée. C'est à dire sans la dernière étape ou en remplacant le rectangle par une autre forme.
 
-Ensuite, le contenu du site n'atteint pas le niveau espéré. Il n'y a pas assez de contenu comparé à l'objectif initial. Pour améliorer cela il suffit de rajouter de nouveaux modules, concepts et améliorer les modules existants.
+Deuxièmement, le contenu du site n'atteint pas le niveau espéré. Il n'y a pas assez de contenu comparé à l'objectif initial. Pour améliorer il faudrait rajouter de nouveaux modules, concepts et améliorer les modules existants.
+
+### Fonctionnalités à développer
+
+Les fonctionnalités intéressantes à développer sont centés autour du rajout de contenu au site. Comme ce sujet est développé dans "Travaux futurs", il n'est pas repris ici.
