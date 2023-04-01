@@ -2,7 +2,7 @@
 
 ## Description du projet et des modules 
 
-Le projet est un site interactif visant à faire apprendre l’arithmétique modulaire. L’apprentissage est facilité grâce à plusieurs aspects du site. Premièrement, la théorie est vulgarisée. C’est à dire qu’elle est simplifiée. Cela permet d’expliquer le sujet à un plus grand nombre de personnes. Cette théorie est accompagnée par des modules. Ces modules sont séparés en deux classes. La première, les modules interactifs, servent de support à la théorie. Dans ce but, ils sont utilisés pour permettre aux utilisateurs de visualiser la théorie. La deuxième catégorie, les questionnaires, permet de renforcer la théorie apprise. Ainsi, ils ont plusieurs caractéristiques. La première étant d’être générés automatiquement. Cela permet à l’utilisateur de refaire le questionnaire plusieurs fois.  
+Le projet est un site interactif visant à faire apprendre l’arithmétique modulaire. L’apprentissage est facilité grâce à plusieurs aspects du site. Premièrement, la théorie est vulgarisée. C’est à dire qu’elle est simplifiée. Cela permet d’expliquer le sujet à un plus grand nombre de personnes. Cette théorie est accompagnée par des modules. Ces modules sont séparés en deux classes. La première, les modules interactifs, servent de support à la théorie. Dans ce but, ils sont utilisés pour permettre aux utilisateurs de visualiser la théorie. La deuxième catégorie, les questionnaires, permet de renforcer la théorie apprise. Lees questionnaires ont plusieurs caractéristiques; la première étant d’être générée automatiquement. Cela permet à l’utilisateur de le refaire plusieurs fois.  
 
 ### Présentation du module de congruence 
 
@@ -12,13 +12,13 @@ Le projet est un site interactif visant à faire apprendre l’arithmétique mod
 Screenshot du module de congruence 
 ``` 
 
-L'horloge est une image souvent utilisée pour illustrer la congruence. C'est pour cette raison que le module de congruence s'en inspire. Cependant, pour le rendre interactif, il a fallu lui apporter plusieurs modifications. Le module en lui-même est séparé en plusieurs parties importantes, deux au total.  
+L'horloge est une image souvent utilisée pour illustrer la congruence. C'est pour cette raison que le module de congruence s'en inspire. Cependant, pour le rendre interactif, il a fallu lui apporter plusieurs modifications. Le module en lui-même est séparé en deux parties importantes.  
 
-La première est la roue en elle-même. Elle a été changée pour permettre de changer les valeurs et la rendre interactive. Les points représentent les différents chiffres possibles avec le modulo sélectionner. Le modulo est choisi grâce à l'`input` au-dessus de l'horloge et ne possède pas de limites. Cependant, l'horloge ne marche pas avec des chiffres négatifs et à tendance à faire planter le site si le modulo est trop grand. Ensuite, l'utilisateur peut cliquer sur un cercle pour le sélectionner. Quand il est sélectionné, le cercle grandit. Ce qui permet de le mettre en évidence. Le deuxième, la barre de congruence, permet de montrer comment l'écriture marche. L'utilisateur peut choisir un cercle. Ensuite, le texte en dessous de la barre s'ajustera en fonction du cercle choisi. Cette fonction est liée à la fonction de l'horloge. Quand l'utilisateur choisi un cercle sur l'horloge, la barre se met à jour automatiquement. L'utilisateur peut ensuite utiliser les flèches pour se déplacer entre les valeurs possibles. Ces valeurs ne sont limitées que par le modulo choisi. Ensuite, une fois qu'il choisit un cercle, le calcul situé en dessous de la barre se met à jour. Ce calcul montre le cercle de la barre choisi, celui de l'horloge et le modulo choisi. Cela permet à l'utilisateur de visualiser comment la congruence s'écrit et d'assimiler les valeurs.  
+La première est la roue en elle-même. Elle a été changée pour permettre de modifier les valeurs et ainsi la rendre interactive. Les points représentent les différents chiffres possibles avec le modulo sélectionné. Le modulo est choisi grâce à l'`input` au-dessus de l'horloge et ne possède pas de limites. Cependant, l'horloge ne marche pas avec des chiffres négatifs et à tendance à stopper les services du site si le modulo est trop grand. Ensuite, l'utilisateur peut cliquer sur un cercle pour le sélectionner. Quand il est sélectionné, le cercle grandit. Ce qui permet de le mettre en évidence. Le deuxième, la barre de congruence, permet de montrer comment l'écriture marche. L'utilisateur peut choisir un cercle. Ensuite, le texte en dessous de la barre s'ajustera en fonction du cercle choisi. Cette fonction est liée à la fonction de l'horloge. Quand l'utilisateur choisi un cercle sur l'horloge, la barre se met à jour automatiquement. L'utilisateur peut ensuite utiliser les flèches pour se déplacer entre les valeurs possibles. Ces valeurs ne sont limitées que par le modulo choisi. Ensuite, une fois qu'il choisit un cercle, le calcul situé en dessous de la barre se met à jour. Ce calcul montre le cercle de la barre choisi, celui de l'horloge et le modulo choisi. Cela permet à l'utilisateur de visualiser comment la congruence s'écrit et d'assimiler les valeurs.  
 
 ### Présentation des tableaux 
 
-Les modules des tableaux ont été inspirés par les tableaux du cours d'AM. Ce design a été choisi car il est unique. Il permet de voir les étapes qui permettent d'arriver aux résultats. Ces tableaux sont utilisés pour enseigner l'algorithme d'Euclide et l'inverse modulaire. 
+Les modules ont été inspirés par les tableaux du cours d'AM. Ce design a été choisi car il est unique. Il permet de voir les étapes qui permettent d'arriver aux résultats. Ces tableaux sont utilisés pour enseigner l'algorithme d'Euclide et l'inverse modulaire. 
 
 Les tableaux fonctionnent grâce à deux `input` qui servent comme variables pour remplir le tableau. Ensuite, la fonction de remplissage de chaque tableau va générer les chiffres et équations nécessaires. Ces chiffres ne seront pas affichés tout de suite. L'utilisateur peut cliquer sur les boutons "étape suivante" et "étape précédente". Ces boutons permettent d'afficher la prochaine étape ou l'étape précédente. Ainsi, les tableaux ne sont pas remplis au début. Cela, permet de voir les étapes nécessaires pour arriver au résultat final. 
 ```{figure} img/Screenshot_tableau.png 
@@ -37,7 +37,7 @@ La théorie de l’arithmétique modulaire est vitale pour comprendre plusieurs 
 
 #### Présentation générale 
 
-Un exemple de site est "Brilliant {cite:p}`Site:Brilliant`". "Brilliant" est un site d'apprentissage interactif. Ce site propose plusieurs thèmes. Ceux-ci vont des mathématiques à l'informatique, mais ils restent tous dans le domaine des sciences. Cependant, tout le monde n'a pas accès à toute la théorie. En effet, "Brilliant" fonctionne avec un système d’abonnement. C'est pourquoi l'analyse du site se concentra sur la première page, qui est gratuite.  
+"Brilliant {cite:p}`Site:Brilliant`" est un site d'apprentissage interactif. Ce site propose plusieurs thèmes. Ceux-ci vont des mathématiques à l'informatique, mais ils restent tous dans le domaine des sciences. Cependant, tout le monde n'a pas accès à toute la théorie. En effet, "Brilliant" fonctionne avec un système d’abonnement. C'est pourquoi l'analyse du site se concentra sur la première page, qui est gratuite.  
 
 #### Points négatifs 
 
@@ -63,13 +63,17 @@ Cela limite l’apprentissage de l’utilisateur sur "Brilliant". S'il veut avoi
 
 "Khan Academy {cite:p}`Site:Khan`" est une association non-lucrative. Son objectif est de "fournir un contenu éducatif de qualité, gratuit, accessible à tous et partout"{cite:p}`Khan:wiki`. Ainsi, le site ne nécessite pas d'abonnement pour avoir accès à toute la théorie. Comme "Brilliant {cite:p}`Site:Brilliant`" "Khan Academy" est un site interactif. La théorie sur le site va des mathématiques à l'économie en passant par l'histoire de l'art {cite:p}`Khan:wiki`. Le site contient plus de huit mille leçons différentes complètements gratuites. Cependant, les points positifs et négatifs seront seulement jugés sur la partie arithmétique modulaire  
 
+#### Points négatifs
+
+"Khan Academy" n'a pas de points négatifs marquants à relever dans le carde de ce projet.
+
 #### Points positifs  
 
 Pour commencer, "Khan Academy" est gratuit. Cela veut dire que chaque utilisateur à accès à toutes les leçons présentées par le site. "Khan Academy" est aussi disponible en français et sur mobile. Cela permet de rendre la théorie accessible au plus de monde possible.  
 Ensuite, il a plus de huit mille leçons. Ces leçons ont des thèmes très variés[^myref4]. Ainsi, le contenu présent sur le site est énorme et varié.  
 "Khan Academy" contient aussi des modules interactifs.  
 Le site contient plusieurs pages, dix-sept au total. Chaque page présente un concept spécifique. Ces pages sont ordonnées des plus basiques au plus compliquées. Elles sont séparées par des questionnaires. Ces questionnaires ne sont pas générés automatiquement. Cependant, ils sont assez nombreux pour que cela ne pose pas de problèmes.  
-Un type questionnaire interactif très intéressant est un jeu. En tout il y a deux versions de ce jeu différentes. Elles présentent les théories importantes de manière interactive. Ces jeux permettent d'apprendre la théorie ludiquement. 
+Un type de questionnaire interactif très intéressant est le jeu. En tout il y a deux versions de ce jeu différentes. Elles présentent les théories importantes de manière interactive. Ces jeux permettent d'apprendre la théorie ludiquement. 
 
 ```{figure} img/Khan_screen.png 
 :scale: 30 % 
@@ -82,9 +86,9 @@ Exemple du jeu sur "Khan Academy" {cite:p}`Site:Khan`
 
 ### Aspect pédagogique 
 
-Le premier aspect est l'aspect pédagogique. Cet aspect est centré autour de rendre la théorie la plus accessible possible. L'objectif pédagogique principal est quel le site ressemble à "Khan Academy {cite:p}`Site:Khan`".  
+Le premier aspect est l'aspect pédagogique. Cet aspect est central pour rendre la théorie la plus accessible possible. L'objectif pédagogique principal est quel le site ressemble à "Khan Academy {cite:p}`Site:Khan`".  
 
-Un problème que des utilisateurs peuvent rencontrer est le langage complexe des mathématiques. En effet, la théorie est souvent écrite avec des symboles et des expressions mathématique. L'utilisateur doit les connaître s'il veut pouvoir comprendre le texte. Ainsi, la théorie doit être simplifiée. Il est possible de la comprendre sans avoir à rechercher sur internet. Ensuite, les modules servent à accompagner la théorie. Ils permettent d'illustrer les théorèmes de manière interactive. Ainsi, les théorèmes les plus difficiles sont encore plus simplifiés.  
+Un problème que des utilisateurs peuvent rencontrer est le langage complexe des mathématiques. En effet, la théorie est souvent écrite avec des symboles et des expressions mathématiques. L'utilisateur doit les connaître s'il veut pouvoir comprendre le texte. Ainsi, la théorie doit être simplifiée. Elle doit être compréhensible sans avoir à rechercher sur internet. Ensuite, les modules servent à accompagner la théorie. Ils permettent d'illustrer les théorèmes de manière interactive. Ainsi, les théorèmes les plus difficiles sont encore plus simplifiés.  
 
 ### Aspect technique 
 
@@ -92,7 +96,7 @@ L'aspect technique du site est aussi important.
 
 Premièrement, les modules interactifs sont optimisés et fonctionnent avec le plus de valeurs possibles. L'optimisation est importante pour permettre aux utilisateurs d'utiliser les modules même si les valeurs rentrées sont grandes. Cela leurs permet de tester le plus de valeurs possibles, ainsi que d'étendre l'utilisation du module. Le deuxième aspect, le fonctionnement du module, augmente l'utilisabilité et enlève les bugs. Pour commencer, les modules peuvent prendre toutes les valeurs possibles. C'est à dire que l'utilisateur n'est pas limité par le module. Il peut choisir des valeurs qui l'intéresse. Cependant, certaines valeurs ne marchent pas. La plupart sont dues aux mathématiques dans le code[^myref2]. Ensuite, les bugs sont limités. Le code marche pour la majorité des valeurs[^myref3] et avec des valeurs élevées.  
 Deuxièmement, la structure des fichiers doit être intuitive. Pour commencer, les fichiers sont structurés par partie. Chaque partie est divisée en trois pages différentes. La première contient le code pour le module, la deuxième le texte et la dernière le questionnaire. Cela permet de facilement trouver un fichier et de rajouter des parties si nécessaire. 
-Pour finir, le code doit être compréhensible. Premièrement, le code est optimisé. Cette optimisation permet de le rendre plus lisible et clair. Ainsi, s'il y a, par exemple, un bug. Il peut facilement être repéré et réparer. Ensuite, il doit être modulaire. Par exemple, si un nouveau module est créé qui ressemble à un ancien. Il est possible de prendre le code, remplacer certaines valeurs et le faire marcher. Cela permet de faire des modules facilement.  
+Pour finir, le code doit être compréhensible. Dans un premier temps il le code est optimisé. Cette optimisation permet de le rendre plus lisible et clair. Ainsi, s'il y a, par exemple, un bug. Il peut facilement être repéré et réparer. Ensuite, il doit être modulaire. Par exemple, si un nouveau module est créé qui ressemble à un ancien. Il est possible de prendre le code, remplacer certaines valeurs et le faire fonctionner. Cela permet de faire des modules facilement.  
 
  
  
