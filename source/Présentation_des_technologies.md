@@ -52,11 +52,94 @@ SVG est la partie centrale du site. En effet les modules interactifs sont créé
 ## Vue.js
 
 ### Présentation de Vue.js
-Vue.js est un framework javascript qui permet de construire des sites web monopages, c'est à dire que le site est accesible grâce à seulement une seule page. Cela permet de rendre l'expérience de l'utilisateur plus agréable et de limité le temps de chargement nécessaire quand on change de page. Vue.js permet aussi de rendre les trois fichiers, "HTML, "CSS" et "Javascript", inutiles car il permet au développeur web de mettre tout ces languages de programmation sur une page avec ses composants. Le framework ajoute aussi des fonctions qui ne sont pas dans les languages mentionnés avant, par exemple "@click" qui permet de faire changer l'objet à chaque click ,quelque chose qui n'est pas possible avec javascript, ce qui permet de rendre le code plus facile à écrire et évite de faire des fonctions trop compliquées. Ainsi un site fait avec Vue.js est réactif et se transforme avec les "inputs" de l'utilisateur, ce qui permet de rendre le site plus intéractif.
+Vue.js est un framework open-source javascript qui permet de construire des sites web monopages [Tci]. Vue.js a étécréé par “Evan You [Tci]” en 2014. Ce framework remplace les trois fichiers3et les mets sur une page. Cette page estdivisée en trois parties.
+ ```{code-block} HTML
+Exemple de fichier Vue.js
+
+<template>
+    <h1class="text">hello</h1>
+</template>
+
+<script>
+export default{
+    name: 'HelloWorld',
+    props: {
+        msg: String
+    }
+}
+</script>
+
+<style>
+.text{
+    color:black
+    }
+</style>
+```
+Chaque partie remplace un type de fichier différent[^myref3]. Vue.js est réactif. C’est à dire que le site peut changer selon les inputs de l’utilisateur. Cette fonctionnalité est importante pour le site.
+#### v-model
+ ```{code-block} HTML
+<template>
+    <inputclass="input" v-model="a">
+</template>
+
+<script>
+export default{
+    name: 'Tableauinverse',
+    props: {
+        msg: String}
+    ,data() {
+        return{
+            a: 167,}
+        }
+    }
+</script>
+```
+v-model permet de lier une valeur à un nom de variable. Quand l’utilisateur change l’inputla variable va aussichanger. Cette variable peut ensuite être utilisée dans une fonction.
+#### v-for
+ ```{code-block} HTML
+Ce code va afficher "i" dix fois
+
+<template>
+    <h1 v-for="i in range(10)> i </h1>
+</template>
+```
+v-for fait la même chose que for (let i = 0; i < 11 ; i++){}. Cela permet de faire des for loops sans avoir à faire des fonctions différentes et rendre le code moins imposant.
+#### v-on
+ ```{code-block} HTML
+ À chaque "click" le texte va augmenter de 1
+
+<template>
+    <h1 @click="i++"> {{i}} </h1>
+</template>
+```
+v-on peut être remplacé par@puit l’évènement que l’on veut. Pour chaque évènement javascript il existe un équivalent @ + évènement. Cette propriété est intéressante pour plusieurs raisons. Premièrement, elle permet de simplifierle code. Comme tous les évènements javascript marchent avecv-on, il est facile d’intégrer ces évènements dans “Vue.js”. Deuxièmement, elle, comme la majorité des fonctions Vue.js est interactive. Elle ré-évalue les valeurs uti-lisées dans la fonction à chaque évaluation. Cela permet de ne pas avoir à rajouter une fonction non nécessaire au code.
+
+#### {{variable}}
+ ```{code-block} HTML
+Ce code va afficher la valeur de "i"
+
+<template>
+    <h1> {{i}} </h1>
+</template>
+```
+{{}} sert  à  retourner  la  valeur  de  la  variable  utilisée.  Cette  fonction  est  très  utile.  Elle  permet,  par  exemple,  deretourner la valeur d’une fonction dans une autre fonction. Ce qui permettra ensuite de l’utiliser comme variable. Ellepeut aussi être utilisé pour faire du texte.
 ### Utilisation de Vue.js dans le projet
-Dans le projet Vue.js est utilisé comme framework et ses fonctionnalitées sont utilisées pour rendre le site plus intéractif et intéressant. La réactivité est, par exemple, utilisée dans l'horloge pour générer les cercles et leurs valeurs celon le modulo indiqué par l'utilisateur grâce à ce qu'ils appelent `v-model` qui donne un nom à un "input" fait par l'utilisateur et nous permet de le reprendre dans le code plus tard. 
+Dans le projet Vue.js est utilisé comme Framework et ses fonctionnalités sont utilisées pour rendre le site plus interactifet intéressant. La réactivité est, par exemple, utilisée dans l’horloge pour générer les cercles et leurs valeurs selonle  modulo  indiqué  par  l’utilisateur  grâce  à  ce  qu’ils  appellent v-model qui  donne  un  nom  à  un  “input”  fait  parl’utilisateur et nous permet de le reprendre dans le code plus tard.
 
+### Utilisation avec SVG
+“Vue.js” ne fait aucune différence entre du code HTML et du code CSS. C’est à dire que le code SVG marche avectoute  les  fonctionnalités  Vue.js.  Cela  permet  de  faciliter  l’écriture  du  code.  Les  modules  SVG  peuvent  donc  êtreconstruits avec tous les avantages de Vue.js sans problèmes.
+```{code-block} HTML
+Exemple de code SVG où la propriété `{{variable}}` est utilisée
 
+<text
+x="50"
+y="50"
+:transform="
+`translate(${text_right[1] + 2} ${-33 + 10*i})`">
+    {{remplissage_calcul[1][i + 1]}}
+</text>
+```
 [^myref]: Tel que Adobe Illustrator ou Inkscape {cite:p}`SVG:application-utilisable`
 [^myref1]: sous forme de formules mathématiques
 [^myref2]: "fill" permettra d'écrire le texte en blanc. "font-size" permet de changer la taille du text. "transform" permet de changer la position du texte
+[^myref3]: '<template>' remplace le fichier HTML,<script>le fichier Javascript et<style>le fichier CSS
