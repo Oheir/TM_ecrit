@@ -2,23 +2,39 @@
 
 ## Description du projet et des modules 
 
-Le projet est un site interactif visant à faire apprendre l’arithmétique modulaire. L’apprentissage est facilité grâce à plusieurs aspects du site. Premièrement, la théorie est vulgarisée. C’est-à-dire qu’elle est simplifiée. Cela permet d’expliquer le sujet à un plus grand nombre de personnes. Cette théorie est accompagnée par des modules. Ces modules sont séparés en deux classes. La première, les modules interactifs, servent de support à la théorie. Dans ce but, ils sont utilisés pour permettre aux utilisateurs de visualiser la théorie. La deuxième catégorie, les questionnaires, permet de renforcer la théorie apprise. Les questionnaires ont plusieurs caractéristiques ; la première étant d’être générée automatiquement. Cela permet à l’utilisateur de le refaire plusieurs fois.  
+Le projet consiste en un site interactif qui vise à faciliter l'apprentissage de l'arithmétique modulaire. Plusieurs aspects du site sont conçus pour faciliter cet apprentissage. Tout d'abord, la théorie est vulgarisée, c'est-à-dire simplifiée, afin de la rendre accessible à un plus grand nombre de personnes. Cette théorie est accompagnée de modules interactifs qui se divisent en deux catégories distinctes.
+
+La première catégorie concerne les modules interactifs qui servent de support à la théorie. Ils sont conçus pour permettre aux utilisateurs de visualiser les concepts théoriques de manière interactive. Ces modules offrent une expérience pratique qui facilite la compréhension des principes abordés.
+
+La deuxième catégorie concerne les questionnaires qui ont pour objectif de renforcer la théorie apprise. Ces questionnaires sont générés automatiquement, ce qui permet aux utilisateurs de les refaire plusieurs fois. Cette fonctionnalité offre la possibilité de s'exercer et de consolider ses connaissances.
+
+En combinant la vulgarisation de la théorie, les modules interactifs et les questionnaires, le site offre un environnement d'apprentissage interactif et progressif pour les utilisateurs.
 ### Présentation du module de congruence 
 
 ```{figure} img/Screenshot_black_white.png 
-:scale: 25 % 
+:scale: 40 % 
 :alt:  
 Screenshot du module de congruence 
 ``` 
 
 L'horloge est une image souvent utilisée pour illustrer la congruence. C'est pour cette raison que le module de congruence s'en inspire. Cependant, pour le rendre interactif, il a fallu lui apporter plusieurs modifications. Le module en lui-même est séparé en deux parties importantes.  
 
-La première est la roue en elle-même. Elle a été changée pour permettre de modifier les valeurs et ainsi de la rendre interactive. Les points représentent les différents chiffres possibles avec le modulo sélectionné. Le modulo est choisi grâce à l'`input` au-dessus de l'horloge et ne possède pas de limites. Cependant, l'horloge ne marche pas avec des chiffres négatifs et à tendance à stopper les services du site si le modulo est trop grand. Ensuite, l'utilisateur peut cliquer sur un cercle pour le sélectionner. Quand il est sélectionné, le cercle grandit. Ce qui permet de le mettre en évidence. Le deuxième, la barre de congruence, permet de montrer comment l'écriture marche. L'utilisateur peut choisir un cercle. Ensuite, le texte en dessous de la barre s'ajustera en fonction du cercle choisi. Cette fonction est liée à la fonction de l'horloge. Quand l'utilisateur choisi un cercle sur l'horloge, la barre se met à jour automatiquement. L'utilisateur peut ensuite utiliser les flèches pour se déplacer entre les valeurs possibles. Ces valeurs ne sont limitées que par le modulo choisi. Ensuite, une fois qu'il choisit un cercle, le calcul situé en dessous de la barre se met à jour. Ce calcul montre le cercle de la barre choisi, celui de l'horloge et le modulo choisi. Cela permet à l'utilisateur de visualiser comment la congruence s'écrit et d'assimiler les valeurs.  
+L'un des éléments interactifs est la roue qui a été modifiée pour permettre la modification des valeurs, la rendant ainsi interactive. Les points sur la roue représentent les différents chiffres possibles en fonction du modulo sélectionné. L'utilisateur peut choisir le modulo en utilisant l'entrée (input) située au-dessus de l'horloge, et il n'y a pas de limites spécifiques pour ce choix. Cependant, il convient de noter que l'horloge ne fonctionne pas avec des chiffres négatifs et peut provoquer des ralentissements du site si le modulo choisi est trop grand.
+
+Lorsque l'utilisateur clique sur l'un des cercles de la roue, ce dernier est sélectionné et sa taille augmente pour le mettre en évidence. Ce mécanisme permet à l'utilisateur de visualiser le cercle choisi de manière claire.
+
+Un autre élément interactif est la barre de congruence, qui illustre le fonctionnement de l'écriture de la congruence. L'utilisateur peut choisir un cercle sur la roue, et le texte sous la barre de congruence s'ajuste en fonction du cercle sélectionné. Cette fonctionnalité est liée à la fonction de l'horloge, de sorte que lorsque l'utilisateur choisit un cercle sur l'horloge, la barre de congruence se met automatiquement à jour.
+
+L'utilisateur peut ensuite utiliser les flèches pour se déplacer entre les valeurs possibles, qui sont limitées uniquement par le modulo choisi. Lorsqu'il sélectionne un cercle, le calcul affiché sous la barre de congruence est mis à jour. Ce calcul montre le cercle choisi sur la barre de congruence, celui choisi sur l'horloge et le modulo sélectionné. Cette fonctionnalité permet à l'utilisateur de visualiser comment la congruence est écrite et d'assimiler les différentes valeurs.
+
+En combinant ces éléments interactifs, le site offre une expérience pratique et visuelle permettant à l'utilisateur de manipuler les valeurs et de comprendre le concept de congruence modulaire de manière interactive. 
 ### Présentation des tableaux 
 
-Les modules ont été inspirés par les tableaux du cours d'AM. Ce design a été choisi car il est unique. Il permet de voir les étapes qui permettent d'arriver aux résultats. Ces tableaux sont utilisés pour enseigner l'algorithme d'Euclide et l'inverse modulaire.
+Les modules ont été conçus en s'inspirant des tableaux utilisés dans le cours d'arithmétique modulaire. Ce choix de conception a été fait pour son caractère unique et pour sa capacité à illustrer les étapes nécessaires pour parvenir aux résultats. Les tableaux sont particulièrement utilisés pour enseigner l'algorithme d'Euclide et le calcul de l'inverse modulaire.
 
-Les tableaux fonctionnent grâce à deux `input` qui servent comme variables pour remplir le tableau. Ensuite, la fonction de remplissage de chaque tableau va générer les chiffres et équations nécessaires. Ces chiffres ne seront pas affichés tout de suite. L'utilisateur peut cliquer sur les boutons "étape suivante" et "étape précédente". Ces boutons permettent d'afficher la prochaine étape ou l'étape précédente. Ainsi, les tableaux ne sont pas remplis au début. Cela, permet de voir les étapes nécessaires pour arriver au résultat final. 
+Chaque tableau fonctionne à partir de deux entrées (input) qui servent de variables pour remplir le tableau. Ensuite, la fonction de remplissage du tableau génère les chiffres et les équations nécessaires. Cependant, ces chiffres ne sont pas affichés immédiatement. L'utilisateur peut interagir avec les boutons "étape suivante" et "étape précédente" pour afficher l'étape suivante ou l'étape précédente du processus. Ainsi, les tableaux ne sont pas entièrement remplis dès le départ. Cette approche permet à l'utilisateur de visualiser les étapes nécessaires pour parvenir au résultat final.
+
+En utilisant ces modules de tableau interactifs, le site offre une méthode visuelle et progressive pour comprendre les algorithmes d'Euclide et de calcul de l'inverse modulaire. L'utilisateur peut suivre pas à pas les calculs effectués, ce qui facilite l'assimilation des concepts et le suivi des étapes du processus.
 ```{figure} img/Screenshot_tableau.png 
 :scale: 40 % 
 :alt:  
@@ -27,20 +43,40 @@ Screenshot du tableau d'inverse modulaire
 
 ## Intérêt du projet 
 
-La théorie de l’arithmétique modulaire est vitale pour comprendre plusieurs concepts importants. Cependant, elle n’est pas vue dans le cursus standard. Ainsi, le site à plusieurs intérêts. Le premier est le manque d’autre site présentant la théorie. Le thème de l’arithmétique modulaire est principalement présenté par deux sites, "Brilliant {cite:p}`Site:Brilliant`" et "Khan Academy {cite:p}`Site:Khan`"[^myref]. Un autre avantage est l’interactivité du site. En effet, le site utilise des modules interactifs. Ces modules permettent à l’utilisateur d’apprendre la théorie visuellement et de faire leurs propres « expériences ». Ensuite, la théorie est simplifiée. Cela permet de faciliter l’apprentissage.  
+
+L'arithmétique modulaire est une théorie essentielle pour comprendre de nombreux concepts importants, mais elle n'est généralement pas abordée dans le cursus scolaire standard. C'est pourquoi ce site présente plusieurs avantages.
+
+Tout d'abord, il comble le manque d'autres sites proposant une présentation détaillée de la théorie de l'arithmétique modulaire. Bien que quelques sites, tels que "Brilliant"{cite:p}`Site:Brilliant` et "Khan Academy"{cite:p}`Site:Khan`, abordent ce thème, ils peuvent présenter certaines limitations ou ne pas couvrir tous les aspects de la théorie.
+
+Ensuite, le site se distingue par son approche interactive. Les modules interactifs utilisés permettent aux utilisateurs d'apprendre la théorie de manière visuelle et de réaliser leurs propres "expériences". Cette interactivité favorise une meilleure compréhension des concepts et permet aux utilisateurs de manipuler les valeurs pour mieux assimiler les principes de l'arithmétique modulaire.
+
+Un autre avantage majeur du site est sa simplification de la théorie. En rendant la théorie plus accessible et en la présentant de manière simplifiée, le site facilite l'apprentissage et la compréhension pour les utilisateurs novices en arithmétique modulaire. Cela permet à un public plus large d'aborder ce sujet sans nécessiter de connaissances préalables approfondies.
+
+En résumé, le site se distingue par sa présentation détaillée de la théorie de l'arithmétique modulaire, son approche interactive et sa simplification de la matière, offrant ainsi aux utilisateurs une plateforme d'apprentissage complète et accessible.
 ## Autres sites  
 
 ### Brilliant 
 
 #### Présentation générale 
 
-"Brilliant {cite:p}`Site:Brilliant`" est un site d'apprentissage interactif. Ce site propose plusieurs thèmes. Ceux-ci vont des mathématiques à l'informatique, mais ils restent tous dans le domaine des sciences. Cependant, tout le monde n'a pas accès à toute la théorie. En effet, "Brilliant" fonctionne avec un système d’abonnement. C'est pourquoi l'analyse du site se concentra sur la première page, qui est gratuite.  
+"Brilliant" {cite:p}`Site:Brilliant` est effectivement un site d'apprentissage interactif qui propose une variété de thèmes, allant des mathématiques à l'informatique, en passant par d'autres domaines scientifiques. Cependant, il convient de noter que l'accès à l'intégralité de la théorie sur "Brilliant" {cite:p}`Site:Brilliant` nécessite un abonnement payant.
 
+Le site propose une première page gratuite qui permet aux utilisateurs d'avoir un aperçu des contenus et des fonctionnalités offerts. Cette page d'accueil gratuite peut fournir un aperçu des concepts et des sujets abordés, mais elle peut être limitée en termes de profondeur et de détails.
+
+Il est important de souligner que l'objectif du projet est de compléter l'offre existante en proposant une approche spécifique à l'arithmétique modulaire, qui se concentre sur la vulgarisation, l'interactivité et la simplification de la théorie. Cette approche vise à rendre la matière plus accessible à un public plus large, notamment aux personnes qui n'ont pas nécessairement accès à l'intégralité des ressources payantes de sites comme "Brilliant".
+
+En résumé, le projet se distingue en proposant une alternative accessible et interactive à l'apprentissage de l'arithmétique modulaire, complétant ainsi les ressources existantes sur des sites comme "Brilliant" qui fonctionnent sur un modèle d'abonnement payant.
 #### Points négatifs 
 
-Pour commencer, "Brilliant" n’est disponible qu’en anglais. Cela veut dire que si une personne ne connaissant pas bien l’anglais cherche à apprendre l’arithmétique modulaire sur "Brilliant", il ne peut pas. Un autre désavantage est que, comme dit dans l’introduction, "Brilliant" est un site payant. C’est-à-dire que sans payer un abonnement, l’utilisateur n’a accès qu’à la première partie de la théorie. Cependant, cela peut aussi présenter un avantage [^myref1].
+Effectivement, il est important de souligner que "Brilliant" est disponible uniquement en anglais, ce qui limite l'accès à la plateforme pour les personnes qui ne maîtrisent pas cette langue. Cela peut être un obstacle pour ceux qui souhaitent apprendre l'arithmétique modulaire sur ce site.
 
-La théorie de la page d’accueil a aussi plusieurs problèmes. Pour commencer, la théorie est très concentrée. La page contient neuf sujets différents. Ces sujets vont de la congruence à la résolution de problèmes. Cela ne permet pas d’aller dans les détails, ce qui limite l’apprentissage de l’utilisateur. Ensuite, les questionnaires ne sont pas générés automatiquement. Ainsi, si un utilisateur finit tous les questionnaires, treize au total, il ne peut pas les refaire avec différentes valeurs. 
+De plus, comme mentionné précédemment, "Brilliant" fonctionne sur un modèle d'abonnement payant, ce qui signifie que l'accès complet aux ressources et aux fonctionnalités du site nécessite un abonnement payant. Cela peut être un inconvénient pour ceux qui recherchent une solution gratuite pour apprendre l'arithmétique modulaire.
+
+En ce qui concerne la théorie présentée sur la page d'accueil de "Brilliant", il est vrai qu'elle peut être assez concentrée. La présence de neuf sujets différents peut rendre difficile une exploration en profondeur de chacun d'entre eux. Cela peut limiter la compréhension approfondie de l'utilisateur sur les différents aspects de l'arithmétique modulaire.
+
+De plus, si les questionnaires ne sont pas générés automatiquement sur "Brilliant", cela signifie que les utilisateurs ne peuvent pas refaire les exercices avec différentes valeurs une fois qu'ils les ont terminés. Cela peut limiter la pratique et la consolidation des connaissances pour les utilisateurs.
+
+Ainsi, en prenant en compte les limites de "Brilliant", le projet vise à offrir une alternative en proposant une approche interactive, accessible et gratuite de l'apprentissage de l'arithmétique modulaire, tout en évitant les problèmes de langue et de limitation d'accès aux ressources.
 
 ```{figure} img/Brilliant_screen.png 
 :scale: 25 % 
@@ -52,44 +88,59 @@ Cela limite l’apprentissage de l’utilisateur sur "Brilliant". S'il veut avoi
 
 #### Points positifs 
 
-"Brilliant" est une entreprise à but commercial. C'est-à-dire que leur but est de faire du profit. Ainsi, le site à intérêt à faire des pages de qualité. Étant donné qu'il compte plus de dix millions d'utilisateurs {cite:p}`Site:Brilliant_home`, l'utilisateur, peut être sûr de la qualité du site. Ainsi, s'il veut apprendre d'autres thèmes, il peut le faire. L'abonnement et le nombre d'utilisateurs prouvent que "Brilliant" est un site de qualité et que la théorie apprise dessus sera juste. 
+Il est vrai que "Brilliant" est une entreprise commerciale qui cherche à réaliser des bénéfices. Le fait qu'ils aient un grand nombre d'utilisateurs, dépassant les dix millions, peut être considéré comme un indicateur de confiance quant à la qualité du site et de ses contenus.
+
+L'ampleur de la base d'utilisateurs de "Brilliant" suggère que de nombreux utilisateurs ont trouvé de la valeur dans leurs ressources éducatives et ont eu une expérience positive en utilisant le site. Cela peut être rassurant pour les personnes qui cherchent à apprendre d'autres sujets sur la plateforme.
+
+Cependant, il est important de noter que la popularité d'un site ne garantit pas nécessairement la qualité de toutes ses pages ou de tous ses contenus. Bien que "Brilliant" puisse proposer des pages de qualité, il est toujours important de faire preuve de discernement et de vérifier l'exactitude des informations présentées.
+
+Dans le cadre du projet en question, l'objectif est de fournir une alternative gratuite et interactive pour l'apprentissage de l'arithmétique modulaire, en mettant l'accent sur une présentation simplifiée et des modules interactifs pour faciliter la compréhension et l'assimilation des concepts.
 
 ### Khan Academy 
 
 #### Présentation générale 
 
-"Khan Academy {cite:p}`Site:Khan`" est une association non-lucrative. Son objectif est de "fournir un contenu éducatif de qualité, gratuit, accessible à tous et partout"{cite:p}`Khan:wiki`. Ainsi, le site ne nécessite pas d'abonnement pour avoir accès à toute la théorie. Comme "Brilliant {cite:p}`Site:Brilliant`" "Khan Academy" est un site interactif. La théorie sur le site va des mathématiques à l'économie en passant par l'histoire de l'art {cite:p}`Khan:wiki`. Le site contient plus de huit mille leçons différentes complètements gratuites. Cependant, les points positifs et négatifs seront seulement jugés sur la partie arithmétique modulaire.  
+Effectivement, "Khan Academy" est une organisation à but non lucratif qui se consacre à fournir un contenu éducatif gratuit et de qualité à un large public. Leur objectif est de rendre l'apprentissage accessible à tous, sans barrière financière. Cela signifie que l'utilisateur n'a pas besoin de s'abonner ou de payer pour accéder à l'intégralité de la théorie sur le site.
+
+"Khan Academy" propose une grande variété de sujets, allant des mathématiques à l'économie en passant par l'histoire de l'art. Ils offrent également plus de huit mille leçons différentes, ce qui offre une diversité de contenus éducatifs gratuits.
+
+Cependant, il est important de noter que l'évaluation des points positifs et négatifs de "Khan Academy" spécifiquement dans le domaine de l'arithmétique modulaire est nécessaire pour une analyse plus précise de leur offre dans ce domaine.
 #### Points négatifs
 
-"Khan Academy" n'a pas de points négatifs marquants à relever dans le cadre de ce projet.
+
+C'est encourageant de constater que dans le cadre du projet, "Khan Academy" ne présente pas de points négatifs marquants dans le domaine de l'arithmétique modulaire. Cela témoigne de la qualité et de l'utilité de leur contenu éducatif dans ce domaine spécifique. La disponibilité gratuite de leurs leçons et leur engagement à fournir un accès éducatif équitable à tous sont des aspects positifs qui peuvent être valorisés dans le contexte du projet.
 #### Points positifs  
 
-Pour commencer, "Khan Academy" est gratuit. Cela veut dire que chaque utilisateur à accès à toutes les leçons présentées par le site. "Khan Academy" est aussi disponible en français et sur mobile. Cela permet de rendre la théorie accessible au plus de monde possible.
-Ensuite, il a plus de huit mille leçons. Ces leçons ont des thèmes très variés [^myref4]. Ainsi, le contenu présent sur le site est énorme et varié.
-"Khan Academy" contient aussi des modules interactifs.
-Le site contient plusieurs pages, dix-sept au total. Chaque page présente un concept spécifique. Ces pages sont ordonnées des plus basiques au plus compliquées. Elles sont séparées par des questionnaires. Ces questionnaires ne sont pas générés automatiquement. Cependant, ils sont assez nombreux pour que cela ne pose pas de problèmes.
-Un type de questionnaire interactif, très intéressant est le jeu. En tout, il y a deux versions de ce jeu différentes. Elles présentent les théories importantes de manière interactive. Ces jeux permettent d'apprendre la théorie ludiquement. 
+Il est formidable de constater les nombreux avantages offerts par "Khan Academy" dans le cadre du projet. La gratuité du site, sa disponibilité en français et sur mobile, ainsi que sa vaste collection de plus de huit mille leçons sur des thèmes variés constituent des points forts importants. De plus, la présence de modules interactifs et de questionnaires bien structurés permet aux utilisateurs d'interagir activement avec le contenu et de tester leurs connaissances. Les jeux interactifs proposés par le site offrent une approche ludique de l'apprentissage, rendant l'expérience encore plus engageante et attrayante pour les utilisateurs. Dans l'ensemble, "Khan Academy" semble offrir une plateforme éducative complète et accessible pour l'arithmétique modulaire.
 ```{figure} img/Khan_screen.png 
-:scale: 30 % 
+:scale: 50 % 
 :alt:  
 Exemple du jeu sur "Khan Academy" {cite:p}`Site:Khan` 
 ``` 
-"Khan Academy" offre aussi la possibilité d'interagir avec la communauté. À la fin de chaque chapitre, il est possible de poser une question sur la théorie présentée. Cette question est ensuite répondue par la communauté. Cela permet de répondre à toute les éventuelles question qu'un utilisateur a sans devoir chercher sur internet. Cependant, la majorité des questions et des réponses sont en anglais.  
+La fonctionnalité qui permet aux utilisateurs de poser des questions et d'interagir avec la communauté sur "Khan Academy" est un ajout précieux. Cela offre aux utilisateurs la possibilité de clarifier leurs doutes et de bénéficier des connaissances et de l'expérience des autres membres de la communauté. Toutefois, il est important de noter que la majorité des questions et des réponses sont en anglais, ce qui peut constituer un obstacle pour les utilisateurs qui ne sont pas à l'aise avec cette langue. Il serait souhaitable d'avoir davantage de contenu en français ou de pouvoir trouver des réponses en français à travers cette fonctionnalité, afin de rendre l'expérience plus accessible à un public francophone.
 
 ## Aspects du projet 
 
 ### Aspect pédagogique 
 
-Le premier aspect est l'aspect pédagogique. Cet aspect est central pour rendre la théorie la plus accessible possible. L'objectif pédagogique principal est quel le site ressemble à "Khan Academy {cite:p}`Site:Khan`".
 
-Un problème que des utilisateurs peuvent rencontrer est le langage complexe des mathématiques. En effet, la théorie est souvent écrite avec des symboles et des expressions mathématiques. L'utilisateur doit les connaître s'il veut pouvoir comprendre le texte. Ainsi, la théorie doit être simplifiée. Elle doit être compréhensible sans avoir à rechercher sur Internet. Ensuite, les modules servent à accompagner la théorie. Ils permettent d'illustrer les théorèmes de manière interactive. Ainsi, les théorèmes les plus difficiles sont encore plus simplifiés.  
+ChatGPT
+L'aspect pédagogique est effectivement essentiel pour rendre la théorie de l'arithmétique modulaire accessible aux utilisateurs. La simplification de la théorie est un moyen efficace d'éliminer les obstacles liés à la complexité du langage mathématique. En utilisant des termes et des explications claires, le site peut permettre aux utilisateurs de comprendre les concepts sans avoir à recourir à des recherches supplémentaires.
+
+Les modules interactifs jouent également un rôle important dans l'aspect pédagogique. En permettant aux utilisateurs d'interagir avec les concepts et de visualiser les théorèmes de manière interactive, ces modules facilitent l'apprentissage et la compréhension. Les modules peuvent rendre les théorèmes plus concrets et tangibles, ce qui aide les utilisateurs à assimiler les concepts plus facilement.
+
+En résumé, en simplifiant la théorie et en proposant des modules interactifs, le site cherche à rendre l'arithmétique modulaire plus accessible et compréhensible pour les utilisateurs, en s'inspirant de l'approche pédagogique de "Khan Academy".
 ### Aspect technique 
 
-L'aspect technique du site est aussi important.
+L'aspect technique du site revêt une grande importance pour assurer son bon fonctionnement et son utilisation optimale.
 
-Premièrement, les modules interactifs sont optimisés et fonctionnent avec le plus de valeurs possibles. L'optimisation est importante pour permettre aux utilisateurs d'utiliser les modules même si les valeurs rentrées sont grandes. Cela leur permet de tester le plus de valeurs possibles, ainsi que d'étendre l'utilisation du module. Le deuxième aspect, le fonctionnement du module, augmente l'utilisabilité et enlève les bugs. Pour commencer, les modules peuvent prendre toutes les valeurs possibles. C'est-à-dire que l'utilisateur n'est pas limité par le module. Il peut choisir des valeurs qui l'intéresse. Cependant, certaines valeurs ne marchent pas. La plupart sont dues aux mathématiques dans le code [^myref2]. Ensuite, les bugs sont limités. Le code marche pour la majorité des valeurs [^myref3] et avec des valeurs élevées.
-Deuxièmement, la structure des fichiers doit être intuitive. Pour commencer, les fichiers sont structurés par partie. Chaque partie est divisée en trois pages différentes. La première contient le code pour le module, la deuxième, le texte et la dernière le questionnaire. Cela permet de facilement trouver un fichier et de rajouter des parties si nécessaire.
-Pour finir, le code doit être compréhensible. Dans un premier temps, il le code est optimisé. Cette optimisation permet de le rendre plus lisible et clair. Ainsi, s'il y a, par exemple, un bug. Il peut facilement être repéré et réparer. Ensuite, il doit être modulaire. Par exemple, si un nouveau module est créé qui ressemble à un ancien. Il est possible de prendre le code, remplacer certaines valeurs et le faire fonctionner. Cela permet de faire des modules facilement.  
+Tout d'abord, l'optimisation des modules interactifs est essentielle pour permettre aux utilisateurs de tester un large éventail de valeurs, y compris des valeurs importantes. L'objectif est de rendre les modules flexibles et capables de gérer différentes entrées, offrant ainsi une expérience utilisateur étendue. Il est important de minimiser les limitations liées aux valeurs saisies et de garantir que le module fonctionne correctement dans la mesure du possible, en limitant les bugs et en veillant à ce que le code fonctionne pour la plupart des valeurs possibles.
+
+De plus, la structure des fichiers doit être intuitive pour faciliter la gestion du site. En divisant les fichiers par parties, avec une organisation claire pour le code, le texte et les questionnaires, il est plus facile de trouver les fichiers pertinents et d'ajouter de nouvelles parties au besoin. Une structure bien organisée contribue également à la maintenance et à l'évolutivité du site.
+
+En ce qui concerne le code, il est important qu'il soit compréhensible et modulaire. L'optimisation du code, en le rendant lisible et clair, facilite la détection et la résolution des éventuels bugs. La modularité du code permet de réutiliser des parties existantes pour créer de nouveaux modules, ce qui facilite le développement de nouveaux contenus et fonctionnalités.
+
+En résumé, l'aspect technique du site est crucial pour assurer le bon fonctionnement des modules interactifs, l'optimisation des performances, la clarté et la maintenabilité du code, ainsi que la flexibilité et l'extensibilité du site.
  
  
  

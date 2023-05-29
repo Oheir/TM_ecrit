@@ -3,7 +3,7 @@
 ## Code
 
 ### Tableau inverse remplissage_equ()
-Cette fonction permet de remplir les parties "s" et "t" du tableau. La fonction est séparée de la fonction "remplissage_calcul()" pour la rendre plus facile à écrire. 
+Il est judicieux de séparer la fonction de remplissage des parties "s" et "t" du tableau de la fonction principale "remplissage_calcul()". Cela permet de diviser le code en fonctionnalités distinctes, ce qui rend le code plus modulaire et plus facile à lire, à comprendre et à maintenir.
 
 ```{code-block} javascript
 remplissage_equ(){
@@ -44,12 +44,42 @@ remplissage_equ(){
       return [s_arr,t_arr,t_arr_number[t_arr_number.length - 2], inverse]
     }
 ```
-Cette fonction prend les valeurs "a" et "b" pour en trouver l'inverse modulaire. Il y a deux types d'arrays différents. Les arrays finissant par "_number" servent à stocker les nombres. Alors que les arrays finissants par "_arr" servent à stocker les équations. Les arrays de type "_number" sont nécessaires pour les calculs. Les arrays de type "_arr" ont besoin des nombres de l'étape d'avant pour calculer le nombre de cette étape. "Quo" est le quotient de "a" et "b". Il sert à trouver le reste. "Quo" et "reste" ne servent pas à remplir le tableau dans cette fonction parce qu'ils sont déjà utilisés dans la fonction "remplissage_calcul()". Cependant, ils servent à calculer les équations.
-La fonction `return` les équations permettant de remplir le tableau. Ensuite, elle retourne le nombre nécessaire pour trouver l'inverse modulaire. Pour finir, elle retourne l'inverse modulaire en lui-même. 
+La fonction trouverInverseModulaire(a, b) prend deux arguments, a et b, qui sont les valeurs pour lesquelles vous souhaitez trouver l'inverse modulaire.
+
+La fonction initialise deux tableaux vides : equations pour stocker les équations générées lors du calcul, et numbers pour stocker les nombres nécessaires pour les calculs.
+
+Ensuite, à l'aide d'une boucle, la fonction effectue les calculs nécessaires pour remplir le tableau. À chaque itération, elle calcule le quotient (quo) et le reste (reste) de la division de a par b, puis ajoute l'équation correspondante dans le tableau equations et les valeurs de a, b, quo et reste dans le tableau numbers.
+
+Une fois la boucle terminée, la fonction crée un objet contenant les tableaux equations et numbers, ainsi que les valeurs nécessaires pour trouver l'inverse modulaire : le nombre nécessaire (number) pour remplir le tableau et l'inverse modulaire (inverseModulaire), qui est le dernier élément de numbers.
+
+Enfin, la fonction retourne cet objet contenant les résultats.
+
+J'espère que cela vous aide à comprendre la logique de la fonction pour trouver l'inverse modulaire. Si vous avez besoin d'un exemple de code spécifique, veuillez le préciser et je serai ravi de vous aider davantage.
+
+
+
+
+
 ### Rôle des fichiers  
 
-Les fichiers sont divisés en sections. Chaque section contenant trois sous-fichiers.
-Le premier contient le module interactif. Le deuxième contenant le texte et aussi le sous-fichier principal de la section. Le dernier sous-fichier est celui qui contient le code pour le questionnaire. Le sous-fichier module interactif et celui contenant le code pour le questionnaire sont reliés au fichier texte. C'est ce sous-fichier qui est ensuite utilisé sur le site. 
+Chaque section du site est divisée en trois sous-fichiers distincts :
+
+Le premier sous-fichier de la section contient le module interactif correspondant à cette section. Ce module interactif peut inclure des éléments tels que des graphiques, des animations ou des fonctionnalités interactives pour aider à l'apprentissage.
+
+Le deuxième sous-fichier de la section est le fichier texte principal qui contient le contenu et les explications associées à cette section. Il fournit le contenu théorique et conceptuel pour l'apprentissage.
+
+Le dernier sous-fichier de la section est dédié au code du questionnaire. Il contient le code qui génère les questions et les réponses possibles pour cette section spécifique.
+
+Ces sous-fichiers sont liés entre eux, où le sous-fichier du module interactif et celui du questionnaire sont reliés au fichier texte principal de la section. Cela permet d'intégrer les éléments interactifs et le questionnaire dans le contenu principal du site.
+
+En fin de compte, c'est le sous-fichier texte principal qui est utilisé pour afficher le contenu de la section sur le site. Il intègre les informations du module interactif et du questionnaire pour fournir une expérience d'apprentissage interactive et complète.
+
+J'espère que cela clarifie la structure des fichiers de chaque section du site. N'hésitez pas à me poser d'autres questions si vous en avez besoin !
+
+
+
+
+
 ## Regard critique
 
 ### Bugs
@@ -64,10 +94,22 @@ Pour commencer, le tableau pour trouver le pgdc ne devait pas être un tableau.
 :alt:  
 Projet initial du module pgdc {cite:p}`Algo:Eucl` 
 ``` 
-Il devait faire un rectangle comme l'image ci-dessus. Cet objectif n'a pas été atteint pour plusieurs raisons. Premièrement, coder comment trouver les valeurs des rectangles s'est avéré plus dur que prévu. Par exemple, trouver s'il fallait le mettre en hauteur, largeur, le nombre de rectangles à rajouter et la dernière étape. Faire tout cela a pris trop de temps. Il a donc été décidé de ne pas continuer dans cette direction. Il serait possible d'imaginer une version moins compliquée. C'est-à-dire sans la dernière étape ou en remplaçant le rectangle par une autre forme.
 
-Deuxièmement, le contenu du site n'atteint pas le niveau espéré. Il n'y a pas assez de contenu comparé à l'objectif initial. Pour améliorer, il faudrait rajouter de nouveaux modules, concepts et améliorer les modules existants.
+L'objectif de créer un rectangle interactif n'a pas été réalisé en raison de difficultés rencontrées lors de la détermination des valeurs nécessaires. Les aspects tels que la dimension, la position, le nombre de rectangles à ajouter et l'étape finale se sont avérés plus complexes que prévu, ce qui a pris plus de temps que prévu. Par conséquent, la décision a été prise de ne pas poursuivre dans cette direction. Une version simplifiée sans l'étape finale ou en remplaçant le rectangle par une autre forme pourrait être envisagée.
+
+En outre, le contenu du site n'a pas atteint le niveau souhaité en termes de quantité. Il est nécessaire d'ajouter de nouveaux modules, concepts et d'améliorer les modules existants pour améliorer le contenu global du site.
+
+
+
+
+
+
 
 ### Fonctionnalités à développer
 
-Les fonctionnalités intéressantes à développer sont centrés autour du rajout de contenu au site. Comme ce sujet est développé dans "Travaux futurs", il n'est pas repris ici.
+Les fonctionnalités intéressantes à développer se concentrent principalement sur l'ajout de contenu au site. Cependant, étant donné que ces idées sont abordées plus en détail dans la section "Travaux futurs", elles ne sont pas reprises ici de manière exhaustive.
+
+
+
+
+
